@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holdtotalk">押しながら録音、指を離して送信</string>
+    <string name="sign_out_button_name">サインアウト</string>
+    <string name="revoke_access_button_name">アクセスを無効にする</string>
+    <string name="pebble_smartwatch">Pebbleスマートウォッチ</string>
+    <string name="enable_pebble_notification">Pebbleへの通知を有効にする</string>
+    <string name="enable_pebble_notification_explanation">スマートフォンの画面が消えている場合にのみ、メッセージの通知がおこなわれます。</string>
+    <string name="pebble_onOffText">Pebbleスマートウォッチは %1$s</string>
+    <string name="pebble_notifications_turned_on">Pebbleへの通知がオンになりました。</string>
+    <string name="pebble_notifications_title">Channel16.me</string>
+    <string name="pebble_notifications_title_from">Channel16.me </string>
+    <string name="connected">接続中</string>
+    <string name="notconnected">接続されていません</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="location_questions">あなたの位置情報を他のユーザーから見えるようにしますか？ \n(設定からいつでも変更できます。)</string>
+    <string name="sent_a_voice_message">音声メッセージを送信</string>
+    <string name="status_signed_out">サインアウトしています。</string>
+    <string name="signed_in_as">%1$s としてサインインしています。</string>
+    <string name="channel16FacebookPage">Channel16.me \nFacebookページ</string>
+    <string name="channel16GooglePlusPage">Channel16.me \nGoogle+ページ</string>
+    <string name="channel16TwitterPage">Channel16.me \nTwitterアカウント</string>
+    <string name="channel16Web">Channel16.me \nWebサイト</string>
+    
+    <string name="signOutDialog">サインアウトしますか?</string>
+
+    <string name="play_services_error">Google Playサービスがありません。</string>
+    <string name="close_button">閉じる</string>
+
+    <string name="id_type_text">あなたは%1$sでサインインしています。</string>
+
+    <string name="action_settings">設定</string>
+    <string name="gpssettings">GPS設定</string>
+    <string name="gpsnotanabled">GPSがオフになっています。設定を変更しますか？</string>
+    <string name="fb_icon_description">このボタンをタップするとChannel16.meのFacebookページを開きます。</string>
+    <string name="gplus_icon_description">このボタンをタップするとChannel16.meのGoogle+ページを開きます。</string>
+    <string name="twitter_icon_description">このボタンをタップするとChannel16.meのTwitterアカウントを開きます。</string>
+    <string name="www_icon_description">このボタンをタップするとChannel16.meのWebサイトを開きます</string>
+    <string name="user_icon">このユーザーのプロフィール画像です。</string>
+
+    <string name="currentlocexplanation">このボタンを押すとマップが現在位置へ移動します。</string>
+    <string name="centerimageexplanation">以下のボタンを押すとこのマーカーの位置でBeamsterに入れます。</string>
+
+    <string name="signin_title">サインイン</string>
+    <string name="loginyesno">ログインしますか？</string>
+    <string name="pushtotalk">録音中&#8230;</string>
+    <string name="release_to_stop">指を離して停止</string>
+    <string name="writehere">ここに入力</string>
+   	<string name="send">送信</string>
+   	<string name="sentAudioMessage">音声メッセージを送信</string>
+    <string name="isTyping">入力中&#8230;</string>
+    <string name="isSpeaking">録音中&#8230;</string>
+
+   	<string name="button_player_play">音声メッセージを再生</string>
+
+    <string name="cancelled">キャンセルしました</string>
+    <string name="permission_not_granted">パーミッションが許可されていないため、選択された操作は実行できません。</string>
+    <string name="hello_user">%1$sさん、こんにちは！</string>
+
+	<!-- footer -->
+	<string name="conditions">諸条件</string>
+	<string name="questions">質問</string>
+	<string name="developer">開発者</string>
+
+	<string name="beam2location">この場所にBeamしますか？</string> <!-- for future use -->
+	<string name="notification_title">メッセージ受信: </string>
+
+	<!-- buttons -->
+	<string name="button_anonymouslogin">匿名ログイン</string>
+	<string name="button_emaillogin">メールアドレスでサインイン</string>
+
+
+	<string name="button_cancel">キャンセル</string>
+	<string name="button_fblogin">Facebookでサインイン</string>
+	<string name="button_gpluslogin">Google+でサインイン</string>
+	<string name="button_accounts">アカウント</string>
+	<string name="button_ok">OK</string>
+	<string name="button_privacysettings">設定</string>
+	<string name="button_peopleinyourarea">周辺のユーザー</string>
+	<string name="button_disconnect">切断する</string>
+	<string name="dialog_startPrivateChannel">%1$sさんとプライベートチャンネルを始めますか？</string>
+
+	<!-- beamster -->
+	<string name="welcome">ようこそ！</string>
+	<string name="beamed">%1$sにビームしました。</string>
+	<string name="trueloc">現在地（%1$s）でログインしました。</string>
+	<string name="starttyping">あなたのメッセージは3時間30分有効で、範囲は%1$sです。これらは設定から変更できます。</string>
+	<string name="therearemore">%1$s人のユーザーが%2$sの範囲内にいます。</string>
+	<string name="thereareno">%1$sの範囲内には誰もいません。</string>
+	<string name="thereisone">1人が%1$sの範囲内にいます。</string>
+	<string name="profilesaved">プロフィールが保存されました。</string>
+
+	<!-- privacy settings -->
+	<string name="options_rangetobeseen">遠景:</string>
+	<string name="options_rangein">範囲:</string>
+	<string name="options_km">キロメートル</string>
+	<string name="options_meters">メートル</string>
+	<string name="options_miles">マイル</string>
+	<string name="options_feet">フィート</string>
+	<string name="options_showyourselfas">表示名&#8230;</string>
+	<string name="options_nicknameandanonymousimage">ニックネームとプロフィール画像</string>
+	<string name="options_firstnameandyourfbimage">名前とプロフィール画像</string>
+	<string name="options_fullnameandfbimage">フルネームとプロフィール画像</string>
+	<string name="options_yournickname">ニックネーム:</string>
+	<string name="options_yournickname_hint">匿名</string>
+	<string name="options_hideonmap">地図上から自分を隠す</string>
+	<string name="options_off">オフ</string>
+	<string name="options_on">オン</string>
+	<string name="options_showfbfriendsonly">Facebookフレンドのみを表示</string>
+	<string name="options_blockallanonymoususers">匿名ユーザーをブロック</string>
+	<string name="options_blockallbeamedusers">Beamしているユーザーをブロック</string>
+	<string name="options_locationblurring">位置情報をぼかす(%1$s):</string>
+	<string name="options_yourstatus">ステータスメッセージ:</string>
+	<string name="options_yourstatus_hint">メッセージを入力</string>
+	<string name="options_metricsystem">単位:</string>
+	<string name="options_people">オンライン</string>
+
+
+  	<string name="error_buffer">録音中にエラーが発生しました。使用するサンプルレートが見つかりません。</string>
+  	<string name="error_init">録音の準備ができません。選択されている入力ソースが存在していないか、使用するサンプルレートが見つからない可能性があります。</string>
+  	<string name="new_private_channel">%1$sさんとの新しいプライベートチャンネルが作成されました。</string>
+  	<string name="user_initiated_private_channel_titel">ダイレクトチャンネル</string>	  	
+  	<string name="user_initiated_private_channel">%1$sさんがプライベートチャンネルを開始しました。</string>
+  	<string name="distance_away">ここから%1$s%2$s</string>	<!-- example: 23m away -->
+  	<string name="via_client">%1$sから送信</string>	<!-- example: via Android -->
+  	<string name="user_x_has_logged_out">%1$sさんがログアウトしました。</string>
+  	<string name="user_x_moved_out_of_sight">%1$sが遠くへ行きました。</string>
+  	<string name="user_x_came_in_sight">%1$sさんが近くに来ました。</string>
+  	<string name="user_x_updated_status">%1$sさんが更新しました。</string>
+  	<string name="no_internet_connection">インターネット接続がありません。</string>
+  	<string name="function_not_implemented">この機能はまだ実装されていません。</string>
+
+    <string name="prompt_email">メール</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in_register"><b>サインイン</b> もしくはユーザー登録</string>
+    <string name="action_forgot_password">パスワードを忘れた</string>
+    <string name="login_progress_signing_in">サインインしています&#8230;</string>
+    <string name="error_invalid_email">メールアドレスが正しくありません</string>
+    <string name="error_invalid_password">パスワードが短すぎます</string>
+    <string name="error_incorrect_password">パスワードが正しくありません</string>
+    <string name="error_field_required">必須項目です</string>
+
+    <string name="disconnecting">切断中&#8230;</string>
+    <string name="please_wait">しばらくお待ちください&#8230;</string>
+    <string name="authenticating">認証中&#8230;</string>
+    <string name="connecting">接続中&#8230;</string>
+    
+    <string name="tab_title_list">リスト</string>
+    <string name="tab_title_map">マップ</string>
+    <string name="tab_title_cam">カメラ</string>
+
+    <string name="privacy_policy">プライバシーポリシー</string>
+    
+    <string name="is_offline">このユーザーはオフラインのようです。</string>
+    <string name="anonymous_not_working_channel">匿名ユーザーはプライベートチャンネルを始めることはできません。</string>
+	<string name="close_working_channel">ダイレクトチャンネルを閉じますか？</string>
+    <string name="send_a_photo">写真を送る</string>
+    <string name="take_photo">写真を撮る</string>
+    <string name="choose_from_gallery">ライブラリから選ぶ</string></resources>

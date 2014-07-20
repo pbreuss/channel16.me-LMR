@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="textColor">#FFF</color>
+	<color name="textColorBubbleLeft">#000</color>
+	<color name="textColorBubbleRight">#fff</color>
+	<color name="textFieldColor">#aaaaaa</color>
+	<color name="textShadow">#FFF</color>
+	<color name="listViewBg">#fff</color>
+	<color name="colorAudioLine">#ff4116</color>
+	<color name="colorAudioLineNet">#621305</color>
+		
+	<color name="sendLightColor">#8897BF</color>
+	<color name="sendMeduimColor">#5D6CA5</color>
+	<color name="sendDarkColor">#515F9F</color>
+
+	<color name="barDarkColor">#CECECE</color>
+	<color name="barMeduimColor">#DFDEE0</color>
+	<color name="barLightColor">#F2F2F2</color>
+
+	<color name="dialogBackgroundDarkColor">#252525</color>
+	<color name="dialogBackgroundLightColor">#F6F6FF</color>
+	<color name="dialogTextColor">#3B3B3C</color>
+	<color name="dialogButtonDarkColor">#9A9A9D</color>
+	<color name="dialogButtonMediumColor">#606061</color>
+	<color name="dialogButtonLightColor">#3B3B3C</color>
+	<color name="dialogButtonTextColor">#F6F6FF</color>
+	
+</resources>

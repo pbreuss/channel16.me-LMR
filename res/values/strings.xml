@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Channel16.me LMR</string>
+    <string name="app_name_long">Channel16.me Land Mine Reporting</string>    
+    <string name="about_title">About Channel16.me Land Mine Reporting</string>
+    <string name="about_text">Channel16.me Land Mine Reporting is the world\'s first true Walkie-Talkie style Land Mine and Explosive Remnants of War (ERW) reportings/warnings system for smartphones: Suspicious findings are reported to a central server as well as to other people using Channel16.me LMR in your area based on the range you set in your Settings.\n\nVersion: %1$s \nBuild: %2$s \n\nWhere does the name come from? Channel 16 VHF (very high frequency) is the most important radio frequency on the marine radio band. The "real" Channel 16 on real radio Walkie Talkies is used to broadcast distress calls such as mayday, pan-pan, securite or other urgent safety messages. \n\nThe app "Channel16.me LMR" is used especially for the purpose of reporting ERW.\n\nThe App Channel16.me has been developed by mobile &amp; wearable software enthusiasts from Salzburg, Austria, Sapporo, Japan, and Washington DC, USA. \n\nTo get more information and to read about our developer API, check out http://channel16.me</string>
+    
+    <string name="holdtotalk">To send an audio message, hold the recording button and release to send.</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+    <string name="pebble_smartwatch">Pebble Smartwatch</string>
+    <string name="enable_pebble_notification">Enable Pebble Notifications</string>  
+    <string name="enable_pebble_notification_explanation">Note: Incoming message notifications are sent only if the screen of your smartphone is off.</string>      
+    <string name="pebble_onOffText">Your Pebble smartwatch is %1$s.</string>
+    <string name="pebble_notifications_turned_on">Pebble Notification has been turned on.</string>    
+    <string name="pebble_notifications_title">Channel16.me</string>    
+    <string name="pebble_notifications_title_from">Channel16.me from:</string>        
+    <string name="connected">connected</string>
+    <string name="notconnected">not connected</string>
+    <string name="yes">Yes</string>  
+    <string name="no">No</string>  
+    <string name="location_questions">Make my location visible to others? \n(Can be changed anytime in Settings.)</string>    
+    <string name="sent_a_voice_message">Sent a voice message.</string>    
+    <string name="status_signed_out">Signed out</string>
+    <string name="signed_in_as">Signed in as %1$s</string>
+    <string name="channel16FacebookPage">Channel16.me \non Facebook</string>
+    <string name="channel16GooglePlusPage">Channel16.me \non Google+</string>
+    <string name="channel16TwitterPage">Channel16.me \non Twitter</string>
+    <string name="channel16Web">Channel16.me \non the Internet</string>
+    <string name="channel16InfoEmail">info@channel16.me</string>
+    
+    <string name="signOutDialog">Are you sure you want to sign out?</string>
+    
+    <string name="play_services_error">Google Play services is required but not available. Closing &#8230;</string>
+    <string name="close_button">Close</string>
+    
+    <string name="id_type_text">You are signed in with account %1$s</string>    
+    
+    <string name="action_settings">Settings</string>
+    <string name="gpssettings">GPS Settings</string>
+    <string name="gpsnotanabled">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="fb_icon_description">Click this button to open the Channel16.me Facebook page</string>
+    <string name="gplus_icon_description">Click this button to open the Channel16.me Google+ page</string>
+    <string name="twitter_icon_description">Click this button to open the Channel16.me Twitter page</string>
+    <string name="www_icon_description">Click this button to open the Channel16.me webpage</string>
+    <string name="user_icon">This is the profile image of this user</string>
+    
+    <string name="currentlocexplanation">Click this button to move the map to your current location</string>    
+    <string name="centerimageexplanation">Click the button below to enter Beamster at the position of this marker</string>
+
+    <string name="signin_title">Channel16 Land Mine Reporting (LMR) &amp;  Walkie-Talkie (TEST)</string>
+    <string name="loginyesno">Do you want to log in?</string>
+    <string name="pushtotalk">Recording &#8230;</string>
+    <string name="release_to_stop">Release to stop</string>
+    <string name="writehere">Write here</string>    
+   	<string name="send">Send</string>   
+   	<string name="sentAudioMessage">Sent an audio message</string>   
+    <string name="isTyping">is typing &#8230;</string>
+    <string name="isSpeaking">is speaking &#8230;</string>
+    		
+   	<string name="button_player_play">Play audio message</string>    
+   		
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="hello_user">Hello %1$s!</string>
+	<string name="main_empty_list"></string>
+			
+	<!-- footer --> 
+	<string name="conditions">Conditions</string> 
+	<string name="questions">Questions</string> 
+	<string name="developer">Developer</string> 
+
+	<string name="beam2location">Beam to this location?</string> <!-- for future use -->
+	<string name="notification_title">Message from</string> 
+		
+	<!-- buttons --> 
+	<string name="button_anonymouslogin">Anonymous Login</string> 
+	<string name="button_emaillogin">Sign in with Email</string> 
+	<string name="registerTermsAndConditions">Channel16.me Land Mine Reporting is a reporting system for Explosive Remnants of War (ERW): Findings can be reported by text, audio, or photos messages to a central server. Additionally your findings/warnings are broadcasted to other users nearby.</string> 
+			
+	<string name="button_cancel">Cancel</string> 
+	<string name="button_fblogin">Sign in with Facebook</string> 
+	<string name="button_gpluslogin">Sign in with Google+</string> 		
+	<string name="button_accounts">Accounts</string> 
+	<string name="button_ok">OK</string> 
+	<string name="button_privacysettings">Settings</string> 
+	<string name="button_peopleinyourarea">People in my area</string> 
+	<string name="button_disconnect">Exit</string> 
+	<string name="dialog_startPrivateChannel">Start a private/working channel with %1$s?</string> 
+
+	<!-- beamster --> 
+	<string name="welcome">Welcome!</string> 
+	<string name="beamed">You have beamed yourself to %1$s.</string> 
+	<string name="trueloc">You have logged in at location %1$s.</string>
+	<string name="starttyping">Please enter your ERW (Explosive Remnants of War) reportings below. Other users in your vicinity, will see your reporting for the next 3:30min and have a range of %1$s. You can change this in the Settings menu. You can use this system to send messages to other users as well Walkie-Talkie style. Please note: this system is currently in test mode.</string>
+	<string name="therearemore">There are %1$s users within your range of %2$s.</string>
+	<string name="thereareno">There are no other users within your range of %1$s.</string>
+	<string name="thereisone">There is one user within your range of %1$s. </string>
+	<string name="profilesaved">Profile saved.</string>
+
+	<!-- privacy settings -->
+	<string name="options_rangetobeseen">Horizon/Visibility:</string> 
+	<string name="options_rangein">Range in:</string> 
+	<string name="options_km">km</string> 
+	<string name="options_meters">Meters</string> 
+	<string name="options_miles">Miles</string> 
+	<string name="options_feet">Feet</string> 
+	<string name="options_showyourselfas">Show myself as &#8230;</string> 
+	<string name="options_nicknameandanonymousimage">Nickname and anonymous image</string> 
+	<string name="options_firstnameandyourfbimage">First name and profile image</string> 
+	<string name="options_fullnameandfbimage">Full name and profile image</string> 
+	<string name="options_yournickname">Nickname:</string> 
+	<string name="options_yournickname_hint">Anonymous</string> 
+	<string name="options_hideonmap">Hide my location on map</string> 
+	<string name="options_off">Off</string> 
+	<string name="options_on">On</string> 
+	<string name="options_showfbfriendsonly">Show Facebook friends only</string> 
+	<string name="options_blockallanonymoususers">Block anonymous users</string> 
+	<string name="options_blockallbeamedusers">Block beamed users</string> 
+	<string name="options_locationblurring">Ambient Proximity/Location Blurring (%1$s):</string> 
+	<string name="options_yourstatus">My Status:</string> 
+	<string name="options_yourstatus_hint">My status &#8230; whatever</string> 
+	<string name="options_metricsystem">Units:</string> 
+	<string name="options_people">online</string> 	
+	
+  	<string name="error_buffer">Error from audio recording! Cannot find a working input sample rate.</string>
+  	<string name="error_init">Audio recorder not initialised! Maybe the selected input source is not available, or a working input sample rate could not be found.</string>		
+  	<string name="new_private_channel">New private channel with %1$s created.</string>	
+  	<string name="user_initiated_private_channel_titel">Private/working channel</string>	  	
+  	<string name="user_initiated_private_channel">%1$s initiated a private/working channel with you.</string>	
+  	<string name="distance_away">%1$s%2$s away</string>	<!-- example: 23m away -->
+  	<string name="via_client">via %1$s</string>	<!-- example: via Android -->
+  	<string name="user_x_has_logged_out">User %1$s has logged out.</string>
+  	<string name="user_x_moved_out_of_sight">User %1$s moved out of sight.</string>	
+  	<string name="user_x_came_in_sight">User %1$s came in sight.</string>	
+  	<string name="user_x_updated_status">User %1$s updated status.</string>	
+  	<string name="no_internet_connection">No Internet connection!</string>	
+  	<string name="function_not_implemented">This function is not yet implemented</string>	
+  		
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+  	
+    <string name="disconnecting">Disconnecting&#8230;</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="authenticating">Authenticating&#8230;</string>
+    <string name="connecting">Connecting&#8230;</string>
+    
+    <string name="tab_title_list">List</string>
+    <string name="tab_title_map">Map</string>
+    <string name="tab_title_cam">Cam</string>
+    
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="is_offline">This user seems to be offline</string>
+    <string name="anonymous_not_working_channel">Anonymous users can\'t initate a Private/Working Channel</string>
+    <string name="close_working_channel">Close this private/working channel?</string>
+    <string name="send_a_photo">Send Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    
+    <!-- Not standard texts: -->
+    <string name="help_translate">Help translate this app!</string>
+    <string name="help_translate_text">Please help translate this app to your language: %1$s\n\nIt takes about 45min to translate all the texts of this app to another language.\n\nPlease click the link to the right and we send you the original texts and you can start translating them. \n\nMany thanks,\nYour Channel16.me team</string>
+    <string name="channel16TranslationEmail">translate\n@channel16.me</string>
+    
+    
+</resources>

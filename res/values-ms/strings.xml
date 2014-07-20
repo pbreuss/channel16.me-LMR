@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holdtotalk">Untuk menghantar mesej audio, sila tahan butang rekod dan melepaskannya untuk menghantar.</string>
+    <string name="sign_out_button_name">Log keluar</string>
+    <string name="revoke_access_button_name">Membatalkan Masuk</string>
+    <string name="pebble_smartwatch">Pebble SmartWatch</string>
+    <string name="enable_pebble_notification">Benarkan Pebble Berita</string>  
+    <string name="enable_pebble_notification_explanation">untuk maklumat: Mesej masuk hanya dihantar ke Pebble anda apabila skrin dimatikan.</string>      
+    <string name="pebble_onOffText">Pebble anda menonton %1$s pintar.</string>
+    <string name="pebble_notifications_turned_on">Mesej Pebble dihidupkan.</string>    
+    <string name="pebble_notifications_title">Channel16.me</string>    
+    <string name="pebble_notifications_title_from">Channel16.me oleh:</string>        
+    <string name="connected">berkaitan</string>
+    <string name="notconnected">tidak berkaitan</string>
+    <string name="yes">Ya</string>  
+    <string name="no">Tiada</string>  
+    <string name="location_questions">Sekiranya tapak saya untuk orang lain boleh dilihat? \n\n (ini boleh diubah dalam tetapan pada setiap masa.)</string>    
+    <string name="sent_a_voice_message">Mempunyai mesej audio dihantar.</string>    
+    <string name="status_signed_out">Logged</string>
+    <string name="signed_in_as">Log masuk sebagai %1$s</string>
+    <string name="channel16FacebookPage">Channel16.me \n bukan Facebook</string>
+    <string name="channel16GooglePlusPage">Channel16.me \n bukan Google +</string>
+    <string name="channel16TwitterPage">Channel16.me \n bukan Twitter</string>
+    <string name="channel16Web">Channel16.me \nInternet</string>
+    <string name="signOutDialog">Adakah anda mahu log keluar?</string>
+    
+    <string name="play_services_error">Google Play Perkhidmatan diperlukan tetapi tidak ada. App dekat &#8230;</string>
+    <string name="close_button">Penutup</string>
+    
+    <string name="id_type_text">Anda log masuk dengan akaun %1$s</string>    
+    
+    <string name="action_settings">Tetapan</string>
+    <string name="gpssettings">Tetapan GPS</string>
+    <string name="gpsnotanabled">GPS tidak dihidupkan. Adakah anda ingin menukar kepada penetapan GPS telefon bimbit anda?</string>
+    <string name="fb_icon_description">Klik di sini untuk Channel16.me halaman Facebook untuk membuka</string>
+    <string name="gplus_icon_description">Klik di sini untuk Channel16.me untuk membuka Google +</string>
+    <string name="twitter_icon_description">Klik di sini untuk Channel16.me untuk membuka di Twitter</string>
+    <string name="www_icon_description">Klik di sini untuk Channel16.me laman web untuk membuka</string>
+    <string name="user_icon">Ini adalah gambar profil pengguna ini</string>
+    
+    <string name="currentlocexplanation">Sila klik di sini untuk melihat peta langkah kedudukan ui semasa anda</string>    
+    <string name="centerimageexplanation">Sila masukkan butang di bahagian bawah untuk rasuk anda kepada kedudukan semasa anda</string>
+ 
+    <string name="signin_title">Daftar</string>
+    <string name="loginyesno">Adakah anda ingin log masuk?</string>
+    <string name="pushtotalk">Rakaman &#8230;</string>
+    <string name="release_to_stop">Lepaskan untuk menghentikan rakaman</string>
+    <string name="writehere">Tulis di sini</string>    
+    <string name="send">Hantar</string>   
+    <string name="sentAudioMessage">Mempunyai mesej audio</string>   
+    <string name="isTyping">hanya ditaip &#8230;</string>
+    <string name="isSpeaking">sedang bercakap &#8230;</string>
+             
+    <string name="button_player_play">Bermain mesej audio</string>    
+             
+    <string name="cancelled">Dibatalkan</string>
+    <string name="permission_not_granted">Tindakan ini tidak boleh dilakukan kerana kebenaran itu tidak diberikan.</string>
+    <string name="hello_user">Hello %1$s!</string>
+                    
+       <!-- footer --> 
+       <string name="conditions">Terma dan Syarat</string> 
+       <string name="questions">Tanya</string> 
+       <string name="developer">Pemaju</string> 
+ 
+       <string name="beam2location">Beam ke lokasi ini?</string> <!-- for future use -->
+       <string name="notification_title">Perutusan</string> 
+             
+       <!-- buttons --> 
+       <string name="button_anonymouslogin">Anonymous Masuk</string> 
+       <string name="button_emaillogin">Daftar masuk dengan e-mel</string> 
+             
+      
+       <string name="button_cancel">Membatalkan</string> 
+       <string name="button_fblogin">Log masuk dengan Facebook</string> 
+       <string name="button_gpluslogin">Log masuk dengan Google +</string>       
+       <string name="button_accounts">Akaun</string> 
+       <string name="button_ok">OK</string> 
+       <string name="button_privacysettings">Tetapan</string> 
+       <string name="button_peopleinyourarea">Orang di kawasan anda</string> 
+       <string name="button_disconnect">Keluar</string> 
+       <string name="dialog_startPrivateChannel">Satu saluran swasta / bekerja membuka dengan %1$s?</string> 
+ 
+       <!-- beamster --> 
+       <string name="welcome">Selamat datang kembali!</string> 
+       <string name="beamed">Anda telah ke lokasi %1$s gebeamed.</string> <!-- for future use -->
+       <string name="trueloc">Anda telah log di %1$s laman web ini.</string>
+       <string name="starttyping">Mesej anda akan dapat dilihat hingga 3:30 min dan mempunyai pelbagai %1$s. Anda boleh menukar ini di dalam pilihan utama.</string>
+       <string name="therearemore">Terdapat pengguna %1$s di kawasan anda %2$s.</string>
+       <string name="thereareno">Tiada pengguna di kawasan anda %1$s.</string>
+       <string name="thereisone">Terdapat pengguna dalam %1$s jejari anda.</string>
+       <string name="profilesaved">Profil anda telah disimpan.</string>
+ 
+       <!-- privacy settings -->
+       <string name="options_rangetobeseen">Kaki langit / penglihatan:</string> 
+       <string name="options_rangein">Akan mewakili dalam:</string> 
+       <string name="options_km">km</string> 
+       <string name="options_meters">Meter</string> 
+       <string name="options_miles">Mileage</string> 
+       <string name="options_feet">Kaki</string> 
+       <string name="options_showyourselfas">Paparkan sebagai &#8230;</string> 
+       <string name="options_nicknameandanonymousimage">Nama samaran dan Icon tanpa nama</string> 
+       <string name="options_firstnameandyourfbimage">Nama dan profil Pertama gambar</string> 
+       <string name="options_fullnameandfbimage">Nama dan gambar profil penuh</string> 
+       <string name="options_yournickname">Nama pengguna:</string> 
+       <string name="options_yournickname_hint">Anonymous</string> 
+       <string name="options_hideonmap">Tidak memaparkan lokasi saya pada peta</string> 
+       <string name="options_off">Dari</string> 
+       <string name="options_on">Untuk</string> 
+       <string name="options_showfbfriendsonly">Hanya tunjukkan Facebook atau Google + rakan-rakan saya</string> 
+       <string name="options_blockallanonymoususers">Pengguna Sekat tanpa nama</string> 
+       <string name="options_blockallbeamedusers">Pengguna pejabat blok pengekod</string> <!-- for future use -->
+       <string name="options_locationblurring">Lokasi Saya tidak betul-betul mewakili (%1$s):</string> 
+       <string name="options_yourstatus">Status saya:</string> 
+       <string name="options_yourstatus_hint">Status saya &#8230; apa sahaja yang anda mahu</string> 
+       <string name="options_metricsystem">Unit:</string> 
+       <string name="options_people">dalam talian</string>   
+ 
+      
+       <string name="error_buffer">Kesilapan dalam rakaman audio! Kadar sampel Imput tidak dapat ditentukan.</string>
+       <string name="error_init">Perakam audio tidak boleh dimulakan! Mungkin kadar sampel input yang dipilih tidak tersedia.</string>        
+       <string name="new_private_channel">Saluran peribadi baru dengan %1$s diwujudkan.</string>      
+       <string name="user_initiated_private_channel">%1$s pengguna telah memulakan satu saluran swasta.</string>    
+       <string name="distance_away">%1$s%2$s jauh</string>    <!-- example: 23m away -->
+       <string name="via_client">melalui %1$s</string> <!-- example: via Android -->
+       <string name="user_x_has_logged_out">%1$s pengguna telah log keluar.</string>
+       <string name="user_x_moved_out_of_sight">%1$s pengguna berpindah keluar dari jarak penglihatan.</string>     
+       <string name="user_x_came_in_sight">%1$s pengguna kini di kawasan anda.</string> 
+       <string name="user_x_updated_status">%1$s pengguna telah dikemaskini statusnya.</string>
+       <string name="no_internet_connection">Tiada sambungan internet!</string>  
+       <string name="function_not_implemented">Fungsi ini belum lagi dilaksanakan</string>                  
+ 
+    <string name="prompt_email">Enamel</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register"><b>Login</b> atau mendaftar daftar</string>
+    <string name="action_forgot_password">Mendapatkan semula kata laluan hilang</string>
+    <string name="login_progress_signing_in">Masuk &#8230;</string>
+    <string name="error_invalid_email">E-mel ini adalah tidak sah</string>
+    <string name="error_invalid_password">Kata laluan terlalu pendek</string>
+    <string name="error_incorrect_password">Kata laluan tidak betul</string>
+    <string name="error_field_required">Bidang ini diperlukan</string>
+  
+    <string name="disconnecting">Berhenti melanggan &#8230;</string>
+    <string name="please_wait">Sila tunggu &#8230;</string>
+    <string name="authenticating">Pengesahan &#8230;</string>
+    <string name="connecting">Menyambung &#8230;</string>
+    
+    <string name="privacy_policy">Dasar Privasi</string>
+    
+    <string name="tab_title_list">Senarai</string>
+    <string name="tab_title_map">Peta</string>
+    <string name="tab_title_cam">Kamera</string>
+    
+    <string name="is_offline">Pengguna ini nampaknya tidak log masuk.</string>
+    <string name="anonymous_not_working_channel">Pengguna tanpa nama tidak boleh initate Saluran Swasta / Kerja</string>
+    
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holdtotalk">Om een audio-bericht te sturen, s.v.p. de opnameknop ingedrukt houden en deze loslaten om te verzenden.</string>
+    <string name="sign_out_button_name">Afmelden</string>
+    <string name="revoke_access_button_name">Login ongedaan maken</string>
+    <string name="pebble_smartwatch">Pebble Smartwatch</string>
+    <string name="enable_pebble_notification">Pebble berichten toestaan</string>  
+    <string name="enable_pebble_notification_explanation">Ter informatie: binnenkomende berichten worden uitsluitend naar je Pebble gestuurd wanneer het beeldscherm uitgeschakeld is.</string>      
+    <string name="pebble_onOffText">Je Pebble smartwatch is %1$s.</string>
+    <string name="pebble_notifications_turned_on">Pebble berichten staan aan.</string>    
+    <string name="pebble_notifications_title">Channel16.me</string>    
+    <string name="pebble_notifications_title_from">Channel16.me von:</string>        
+    <string name="connected">Verbonden</string>
+    <string name="notconnected">Niet verbonden</string>
+    <string name="yes">Ja</string>  
+    <string name="no">Nee</string>  
+    <string name="location_questions">Moet mijn lokatie voor anderen zichtbaar zijn? \n(Dit kan te allen tijde in de instellingen worden aangepast.)</string>    
+    <string name="sent_a_voice_message">Heeft een audiobericht verstuurd.</string>    
+    <string name="status_signed_out">Afgemeld</string>
+    <string name="signed_in_as">Aangemeld als %1$s</string>
+    <string name="channel16FacebookPage">Channel16.me \nop Facebook</string>
+    <string name="channel16GooglePlusPage">Channel16.me \nop Google+</string>
+    <string name="channel16TwitterPage">Channel16.me \nop Twitter</string>
+    <string name="channel16Web">Channel16.me \nin het internet</string>
+    <string name="signOutDialog">Wil je je afmelden?</string>
+    
+    <string name="play_services_error">Google Play Services wordt benodigd, maar is niet beschikbaar. Sluit de app af &#8230;</string>
+    <string name="close_button">Afsluiten</string>
+    
+    <string name="id_type_text">Je bent met Account %1$s aangemeld</string>    
+    
+    <string name="action_settings">Instellinge</string>
+    <string name="gpssettings">GPS instellingen</string>
+    <string name="gpsnotanabled">GPS is niet ingeschakeld. Wil je naar de GPS instellingen van je mobiele telefoon wisselen?</string>
+    <string name="fb_icon_description">Hier klikken om de Channel16.me Facebookpagina te openen</string>
+    <string name="gplus_icon_description">Hier klikken om Channel16.me op Google+ te openen</string>
+    <string name="twitter_icon_description">Hier klikken om Channel16.me op Twitter te openen</string>
+    <string name="www_icon_description">Hier klikken om de Channel16.me website te openen</string>
+    <string name="Gebruiker_icon">Dit is de profielfoto van deze gebruiker</string>
+    
+    <string name="currentlocexplanation">Hier klikken om de kaart naar je huidige positie te bewegen</string>    
+    <string name="centerimageexplanation">De knop hieronder aanklikken om je naar de huidige positie te "beamen"</string>
+
+    <string name="signin_title">Aanmelden</string>
+    <string name="loginyesno">Will je je inloggen?</string>
+    <string name="pushtotalk">Opname &#8230;</string>
+    <string name="release_to_stop">Loslaten om de opname te stoppen</string>
+    <string name="writehere">Hier schrijven</string>    
+   	<string name="send">Verzenden</string>   
+   	<string name="sentAudioMessage">Heeft een audiobericht gestuurd</string>   
+    <string name="isTyping">Typt op dit moment &#8230;</string>
+    <string name="isSpeaking">Spreekt op dit moment &#8230;</string>
+    		
+   	<string name="button_player_play">Audiobericht afspelen</string>    
+   		
+    <string name="cancelled">Afgebroken</string>
+    <string name="permission_not_granted">De actie kon niet worden uitgevoerd, omdat daarvoor geen toestemming werd gegeven.</string>
+    <string name="hello_Gebruiker">Hallo %1$s!</string>
+			
+	<!-- footer --> 
+	<string name="conditions">Algemene voorwaarden</string> 
+	<string name="questions">Vragen</string> 
+	<string name="developer">Ontwikkelaar</string> 
+
+	<string name="beam2location">Naar deze lokatie "beamen"?</string> <!-- for future use -->
+	<string name="notification_title">Bericht van</string> 
+		
+	<!-- buttons --> 
+	<string name="button_anoniemouslogin">anonieme login</string> 
+	<string name="button_emaillogin">Aanmelding met email</string> 
+		
+	
+	<string name="button_cancel">Afbreken</string> 
+	<string name="button_fblogin">Met Facebook inloggen</string> 
+	<string name="button_gpluslogin">Met Google+ inloggen</string> 		
+	<string name="button_accounts">Accounts</string> 
+	<string name="button_ok">OK</string> 
+	<string name="button_privacysettings">Instellingen</string> 
+	<string name="button_peopleinyourarea">Personen in jouw omgeving</string> 
+	<string name="button_disconnect">Exit</string> 
+	<string name="dialog_startPrivateChannel">Een privé kanaal met %1$s openen?</string> 
+
+	<!-- beamster --> 
+	<string name="welcome">Welkom!</string> 
+	<string name="beamed">Je hebt je naar lokatie %1$s gebeamd.</string> <!-- for future use -->
+	<string name="trueloc">Je hebt je op lokatie %1$s ingelogd.</string>
+	<string name="starttyping">Je berichten zijn gedurende 3:30min zichtbaar en hebben een reikwijdte van %1$s. Je kan dit in je instellingen aanpassen.</string>
+	<string name="therearemore">Er zijn %1$s gebruikers in een bereik van %2$s.</string>
+	<string name="thereareno">Er zijn geen gebruikers in een bereik van %1$s.</string>
+	<string name="thereisone">Er is één gebruiker in een bereik van %1$s. </string>
+	<string name="profilesaved">Je profiel is opgeslagen.</string>
+	<string name="Gebruikermovedoutofsight">Gebruiker %1$s is niet meer binnen bereik.</string>
+	<string name="Gebruikerloggedout">Gebruiker %1$s heeft zich uitgelogd.</string>
+	<string name="joinedwithinyourrange">Gebruiker %1$s neemt nu deel aan de chat in jouw bereik.</string>
+
+	<!-- privacy settings -->
+	<string name="options_rangetobeseen">Horizon/zichtbaarheid:</string> 
+	<string name="options_rangein">Straal in:</string> 
+	<string name="options_km">Km</string> 
+	<string name="options_meters">Meter</string> 
+	<string name="options_miles">Mijlen</string> 
+	<string name="options_feet">Voet</string> 
+	<string name="options_showyourselfas">Weergeven als &#8230;</string> 
+	<string name="options_nicknameandanoniemousimage">Nickname en anoniem icon</string> 
+	<string name="options_firstnameandyourfbimage">Voornaam en profielbeeld</string> 
+	<string name="options_fullnameandfbimage">Volledige naam en profielbeeld</string> 
+	<string name="options_yournickname">Nickname:</string> 
+	<string name="options_yournickname_hint">Anoniem</string> 
+	<string name="options_hideonmap">Mijn lokatie niet op de kaart tonen</string> 
+	<string name="options_off">Uit</string> 
+	<string name="options_on">Aan</string> 
+	<string name="options_showfbfriendsonly">Toon alleen mijn Facebook of Google+ vrienden</string> 
+	<string name="options_blockallanoniemousGebruikers">Anonieme gebruikers blokkeren</string> 
+	<string name="options_blockallbeamedGebruikers">Gebeamde gebruikers blokkeren</string> <!-- for future use -->
+	<string name="options_locationblurring">Mijn lokatie niet exact weergeven (%1$s):</string> 
+	<string name="options_yourstatus">Mijn Status:</string> 
+	<string name="options_yourstatus_hint">Mijn Status &#8230; wat je maar wilt</string> 
+	<string name="options_metricsystem">Eenheid:</string> 
+	<string name="options_people">online</string> 	
+
+	
+  	<string name="error_buffer">Fout bij de audio-opname! Input sample rate kan niet worden bepaald.</string>
+  	<string name="error_init">Audiorecorder kon niet worden geinitialiseerd! Mogelijkerwijs is de gekozen input-sample-rate niet beschikbaar.</string>		
+  	<string name="new_private_channel">Nieuw privékanaal met %1$s geopend.</string>	
+  	<string name="Gebruiker_initiated_private_channel">Gebruiker %1$s heeft een privékanaal geopend.</string>	
+  	<string name="distance_away">%1$s%2$s verwijderd</string>	<!-- example: 23m away -->
+  	<string name="via_client">via %1$s</string>	<!-- example: via Android -->
+  	<string name="Gebruiker_x_has_logged_out">Gebruiker %1$s heeft zich afgemeld.</string>
+  	<string name="Gebruiker_x_moved_out_of_sight">Gebruiker %1$s heeft het zichtbare bereik verlaten.</string>	
+  	<string name="Gebruiker_x_came_in_sight">Gebruiker %1$s is nu binnen bereik.</string>	
+  	<string name="Gebruiker_x_updated_status">Gebruiker %1$s heeft zijn status geactualiseerd.</string>	
+  	<string name="no_internet_connection">Geen internetverbinding!</string>	
+  	<string name="function_not_implemented">Deze funktie is nog niet geimplementeerd</string>	  		
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Wachtwoord</string>
+    <string name="action_sign_in_register"><b>Aanmelden</b> of inschrijven in het register</string>
+    <string name="action_forgot_password">Vergeten wachtwoord terugzetten</string>
+    <string name="login_progress_signing_in">Aanmelden&#8230;</string>
+    <string name="error_invalid_email">Dit emailadres is ongeldig</string>
+    <string name="error_invalid_password">Het wachtwoord is te kort</string>
+    <string name="error_incorrect_password">Het wachtwoord is onjuist</string>
+    <string name="error_field_required">Dit is een verplicht veld</string>
+  
+    <string name="disconnecting">Afmelden&#8230;</string>
+    <string name="please_wait">Even wachten s.v.p.&#8230;</string>
+    <string name="authenticating">Authentificatie&#8230;</string>
+    <string name="connecting">Verbinden&#8230;</string>
+    
+    <string name="tab_title_list">Lijst</string>
+    <string name="tab_title_map">Kaart</string>
+    <string name="tab_title_cam">Camera</string>
+  	
+  	<string name="privacy_policy">Privacybeleid</string>	
+  	
+    <string name="is_offline">Deze gebruiker lijkt niet ingelogd.</string>
+    <string name="anonymous_not_working_channel">Anonieme gebruikers kunnen geen initate een Prive / Werken Channel</string>
+    <string name="close_working_channel">Sluit dit prive-kanaal?</string>
+    <string name="send_a_photo">Stuur Photo</string>
+    <string name="take_photo">Neem een foto</string>
+    <string name="choose_from_gallery">Kies van uw foto\'s</string>  		
+  	
+</resources>

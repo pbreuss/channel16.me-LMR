@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holdtotalk">Для передачи звукового сообщения, пожалуйста, нажмите и удерживайте кнопку записи и отпустите ее для отправки сообщения.</string>
+    <string name="sign_out_button_name">Выйти</string>
+    <string name="revoke_access_button_name">Отозвать Логин</string>
+    <string name="pebble_smartwatch">Pebble SmartWatch</string>
+    <string name="enable_pebble_notification">Разрешить функцию Pebble Сообщения</string>  
+    <string name="enable_pebble_notification_explanation">Для справок: Входящие сообщения отправляются на ваш Pebble, только когда выключен экран.</string>      
+    <string name="pebble_onOffText">Ваш Pebble Smartwatch %1$s.</string>
+    <string name="pebble_notifications_turned_on">Функция Pebble Сообщения включена.</string>    
+    <string name="pebble_notifications_title">Channel16.me</string>    
+    <string name="pebble_notifications_title_from">Channel16.me от:</string>        
+    <string name="connected">Соединено</string>
+    <string name="notconnected">Нет соединения</string>
+    <string name="yes">Да</string>  
+    <string name="no">Нет</string>  
+    <string name="location_questions">Показать мое местонахождения остальным? \n (Эта установка может быть изменена в настройках в любое время)</string>    
+    <string name="sent_a_voice_message">Звуковое сообщение отправлено.</string>    
+    <string name="status_signed_out">Выход из системы</string>
+    <string name="signed_in_as">Вы вошли под именем %1$s</string>
+    <string name="channel16FacebookPage">Channel16.me \nв Facebook</string>
+    <string name="channel16GooglePlusPage">Channel16.me \nв Google+</string>
+    <string name="channel16TwitterPage">Channel16.me \nв Twitter</string>
+    <string name="channel16Web">Channel16.me \nв Интернете</string>
+    <string name="signOutDialog">Вы хотите выйти?</string>
+    
+    <string name="play_services_error">Google Play Services требуется, но не доступен. Закрыть приложение &#8230;</string>
+    <string name="close_button">Закрыть</string>
+    
+    <string name="id_type_text">Вы вошли с аккаунта %1$s</string>    
+    
+    <string name="action_settings">Настройки</string>
+    <string name="gpssettings">Настройки GPS</string>
+    <string name="gpsnotanabled">GPS не включена. Хотите перейти к настройкам GPS вашего мобильного телефона?</string>
+    <string name="fb_icon_description">Нажмите сюда, чтобы открыть страницу Channel16.me в Facebook</string>
+    <string name="gplus_icon_description">Нажмите сюда, чтобы открыть страницу Channel16.me в Google+</string>
+    <string name="twitter_icon_description">Нажмите сюда, чтобы открыть страницу Channel16.me в Twitter</string>
+    <string name="www_icon_description">Нажмите сюда, чтобы открыть сайт Channel16.me</string>
+    <string name="user_icon">Это аватар данного пользователя</string>
+    
+    <string name="currentlocexplanation">Пожалуйста, нажмите здесь, чтобы увидеть карту вашего текущего положения</string>    
+    <string name="centerimageexplanation">Пожалуйста, нажмите кнопку внизу, чтобы радиолокализовать ваше текущее положение</string>
+
+    <string name="signin_title">Зарегистрироваться</string>
+    <string name="loginyesno">Вы хотите войти?</string>
+    <string name="pushtotalk">Запись &#8230;</string>
+    <string name="release_to_stop">Отпустите, чтобы остановить запись</string>
+    <string name="writehere">Напишите здесь</string>    
+   	<string name="send">Отправить</string>   
+   	<string name="sentAudioMessage">Звуковое сообщение отправлено</string>   
+    <string name="isTyping">Пишет сейчас &#8230;</string>
+    <string name="isSpeaking">Говорит сейчас &#8230;</string>
+    		
+   	<string name="button_player_play">Прослушать звуковое сообщение</string>    
+   		
+    <string name="cancelled">Отменен</string>
+    <string name="permission_not_granted">Действие не может быть выполнено, так как разрешение не было получено.</string>
+    <string name="hello_user">Здравствуйте %1$s!</string>
+			
+	<!-- footer --> 
+	<string name="conditions">Условия</string> 
+	<string name="questions">Вопросы</string> 
+	<string name="developer">Разработчик</string> 
+
+	<string name="beam2location">Радиолокализовать в этом месте?</string> <!-- for future use -->
+	<string name="notification_title">Сообщение от</string> 
+		
+	<!-- buttons --> 
+	<string name="button_anonymouslogin">Войти анонимно</string> 
+	<string name="button_emaillogin">Войти с электронной почты</string> 
+		
+	
+	<string name="button_cancel">Отменить</string> 
+	<string name="button_fblogin">Войти с Facebook</string> 
+	<string name="button_gpluslogin">Войти с Google+</string> 		
+	<string name="button_accounts">Аккаунты</string> 
+	<string name="button_ok">ОК</string> 
+	<string name="button_privacysettings">Настройки</string> 
+	<string name="button_peopleinyourarea">Пользователи в вашем районе</string> 
+	<string name="button_disconnect">Выход</string> 
+	<string name="dialog_startPrivateChannel">Открыть частный / рабочий канал с %1$s?</string> 
+
+	<!-- beamster --> 
+	<string name="welcome">Добро пожаловать!</string> 
+	<string name="beamed">Вы радиолокализованы в месте %1$s .</string> <!-- for future use -->
+	<string name="trueloc">Вы вошли с  %1$s.</string>
+	<string name="starttyping">Ваши сообщения будут видны 3:30 мин и имеют могут быть приняты на расстоянии до  %1$s. Вы можете изменить это в настройках.</string>
+	<string name="therearemore">Найдено %1$s пользователей в радиусе %2$s.</string>
+	<string name="thereareno">В радиусе %1$s не найдено пользователей.</string>
+	<string name="thereisone">Найден один пользователь в радиусе %1$s.</string>
+	<string name="profilesaved">Ваш профиль был сохранен.</string>
+
+	<!-- privacy settings -->
+	<string name="options_rangetobeseen">горизонт / видимость:</string> 
+	<string name="options_rangein">Измерение радиуса в:</string> 
+	<string name="options_km">км</string> 
+	<string name="options_meters">м</string> 
+	<string name="options_miles">миля</string> 
+	<string name="options_feet">Фут</string> 
+	<string name="options_showyourselfas">Показать как &#8230;</string> 
+	<string name="options_nicknameandanonymousimage">Ник и анонимная иконка</string> 
+	<string name="options_firstnameandyourfbimage">Имя и аватар</string> 
+	<string name="options_fullnameandfbimage">Полное имя и аватар</string> 
+	<string name="options_yournickname">Ник пользователя:</string> 
+	<string name="options_yournickname_hint">Анонимный</string> 
+	<string name="options_hideonmap">Не показывать мое местоположение на карте</string> 
+	<string name="options_off">Выключено</string> 
+	<string name="options_on">Включено</string> 
+	<string name="options_showfbfriendsonly">Показать только моим друзьям из Facebook или Google+</string> 
+	<string name="options_blockallanonymoususers">Блокировать анонимных  пользователей</string> 
+	<string name="options_blockallbeamedusers">Блокировать радиолокализованных  пользователей</string> <!-- for future use -->
+	<string name="options_locationblurring">Мое местоположение точно не определять (%1$s):</string> 
+	<string name="options_yourstatus">Мой статус:</string> 
+	<string name="options_yourstatus_hint">Мой статус &#8230; все, что вы хотите</string> 
+	<string name="options_metricsystem">Единица измерения:</string> 
+	<string name="options_people">Онлайн</string> 	
+
+	
+  	<string name="error_buffer">Ошибка в записи аудио! Частота вводимых данных не может быть определена.</string>
+  	<string name="error_init">Звукозаписывающее устройство не удалось запустить! Возможно, что выбранная частота вводимых данных недоступна.</string>		
+  	<string name="new_private_channel">Новый частный канал создан с %1$s.</string>	
+  	<string name="user_initiated_private_channel">%1$s пользователь инициировал частный канал.</string>	
+  	<string name="distance_away">Удален на расстояние %1$s%2$s </string>	<!-- example: 23m away -->
+  	<string name="via_client">через %1$s</string>	<!-- example: via Android -->
+  	<string name="user_x_has_logged_out">%1$s пользователь вышел из системы.</string>
+  	<string name="user_x_moved_out_of_sight">%1$s пользователь вышел из зоны видимости.</string>	
+  	<string name="user_x_came_in_sight">%1$s пользователь теперь в вашем радиусе.</string>	
+  	<string name="user_x_updated_status">%1$s пользователь обновил статус.</string>	
+  	<string name="no_internet_connection">Нет подключения к Интернету!</string>	
+  	<string name="function_not_implemented">Эта функция пока не реализована</string>	  		
+
+    <string name="prompt_email">Электронная почта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in_register"><b>Войти</b> или зарегистрироваться в регистре</string>
+    <string name="action_forgot_password">Восстановление забытого пароля</string>
+    <string name="login_progress_signing_in">Войти &#8230;</string>
+    <string name="error_invalid_email">Этот адрес электронной почты недействителен</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">Неправильно указан пароль</string>
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+  
+    <string name="disconnecting">Отсоединиться &#8230;</string>
+    <string name="please_wait">Пожалуйста, подождите &#8230;</string>
+    <string name="authenticating">Подтверждение личности &#8230;</string>
+    <string name="connecting">Подключение &#8230;</string>
+    
+    <string name="privacy_policy">Условия о защите личных данных</string>
+    
+    <string name="tab_title_list">Список</string>
+    <string name="tab_title_map">Карта</string>
+    <string name="tab_title_cam">Камера</string>
+  	
+    <string name="is_offline">Пользователь, кажется, не вошли в.</string>
+    <string name="anonymous_not_working_channel">Anonimowi użytkownicy nie mogą initate prywatny / kanał roboczy</string>
+    
+    <string name="close_working_channel">Закрыть приватный канал?</string>
+    <string name="send_a_photo">Отправить фото</string>
+    <string name="take_photo">Сфотографируйте</string>
+    <string name="choose_from_gallery">Выберите из ваших фотографий</string>  		
+</resources>

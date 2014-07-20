@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dialogBackgroundLightColor" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/dialogBackgroundLightColor"
+	    android:orientation="horizontal"
+	    android:padding="18dip" >
+	
+	    <TextView
+    		android:id="@+id/aboutTextField"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="30dip"
+	        android:maxLines="50"
+		    android:layout_weight="1"/>
+	    
+		<LinearLayout
+		    android:layout_width="141dp"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_weight="0.2"
+		    android:padding="5dip"
+		    android:background="@color/dialogBackgroundLightColor">
+
+		    <LinearLayout
+	        android:id="@+id/fbPageLink"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:padding="2dip"
+		    android:background="@color/dialogBackgroundLightColor">
+		    		
+			    <ImageView
+			        android:layout_width="@dimen/icon_size_list_view_message"
+			        android:layout_height="@dimen/icon_size_list_view_message"
+			        android:layout_gravity="bottom|center"
+			        android:layout_marginBottom="0dip"
+			        android:layout_marginRight="0dip"
+			        android:contentDescription="@string/fb_icon_description"
+			        android:scaleType="centerInside"
+			        android:src="@drawable/facebook" />
+			    
+			   <TextView
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="center"
+			       android:layout_marginBottom="30dip"
+			       android:text="@string/channel16FacebookPage" />
+		    		    
+			</LinearLayout>	    
+			   		    
+		    <LinearLayout
+	        android:id="@+id/googlePlusLink"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:padding="2dip"
+		    android:background="@color/dialogBackgroundLightColor">
+		    		
+			    <ImageView
+			        android:layout_width="@dimen/icon_size_list_view_message"
+			        android:layout_height="@dimen/icon_size_list_view_message"
+			        android:layout_gravity="bottom|center"
+			        android:layout_marginBottom="0dip"
+			        android:layout_marginRight="0dip"
+			        android:contentDescription="@string/gplus_icon_description"
+			        android:scaleType="centerInside"
+			        android:src="@drawable/googleplus" />
+			    
+			   <TextView
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="center"
+			       android:layout_marginBottom="30dip"
+			       android:text="@string/channel16GooglePlusPage" />
+		    		    
+			</LinearLayout>	    
+		    
+		    <LinearLayout
+	        android:id="@+id/twitterLink"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:padding="2dip"
+		    android:background="@color/dialogBackgroundLightColor">
+		    		
+			    <ImageView
+			        android:layout_width="@dimen/icon_size_list_view_message"
+			        android:layout_height="@dimen/icon_size_list_view_message"
+			        android:layout_gravity="bottom|center"
+			        android:layout_marginBottom="0dip"
+			        android:layout_marginRight="0dip"
+			        android:contentDescription="@string/twitter_icon_description"
+			        android:scaleType="centerInside"
+			        android:src="@drawable/twitter" />
+			    
+			   <TextView
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="center"
+			       android:layout_marginBottom="30dip"
+			       android:text="@string/channel16TwitterPage" />
+		    		    
+			</LinearLayout>	    
+
+		    <LinearLayout
+	        android:id="@+id/webLink"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:padding="2dip"
+		    android:background="@color/dialogBackgroundLightColor">
+		    		
+			    <ImageView
+			        android:layout_width="@dimen/icon_size_list_view_message"
+			        android:layout_height="@dimen/icon_size_list_view_message"
+			        android:layout_gravity="bottom|center"
+			        android:layout_marginBottom="0dip"
+			        android:layout_marginRight="0dip"
+			        android:scaleType="centerInside"
+			        android:contentDescription="@string/www_icon_description"			        
+			        android:src="@drawable/channel16_50x50" />
+			    
+			   <TextView
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="center"
+			       android:layout_marginBottom="30dip"
+			       android:text="@string/channel16Web" />
+		    		    
+			</LinearLayout>	    
+		    		    		    
+		</LinearLayout>	    
+	    
+	</LinearLayout>
+</ScrollView>

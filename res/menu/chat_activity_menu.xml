@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/people_in_your_area"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/button_peopleinyourarea"/>
+
+    <item
+        android:id="@+id/pebble_smartwatch"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/pebble_smartwatch"/>
+        
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/button_privacysettings"/>
+
+    <item
+        android:id="@+id/accounts"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/button_accounts"/>
+    
+     <item
+        android:id="@+id/about"
+        android:showAsAction="never"
+        android:title="@string/about_title"/>   
+
+    <item
+        android:id="@+id/help_translate"
+        android:showAsAction="never"
+        android:title="@string/help_translate"/>         
+     
+    <item
+        android:id="@+id/action_signoff"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/button_disconnect"/>
+    
+</menu>

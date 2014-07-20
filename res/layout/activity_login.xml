@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+    
+    <ScrollView
+        android:padding="30dp"
+        android:background="#CCFFFFFF"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dip"
+                android:gravity="center"
+                android:text="@string/signin_title"
+                android:textSize="20sp" />
+            
+      		<com.google.android.gms.common.SignInButton
+      		    android:id="@+id/google_plus_sign_in_button"
+      		    android:layout_width="match_parent"
+      		    android:layout_height="match_parent"
+      		    android:layout_marginBottom="5dip"
+      		    android:layout_marginTop="5dp"
+      		    android:enabled="false"
+      		    android:visibility="gone"
+      		    android:text="@string/button_gpluslogin" />
+            
+            <!-- FB login not needed com.facebook.widget.LoginButton
+                android:id="@+id/fb_login_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+		        android:layout_marginBottom="5dip"
+		        facebook:login_text="@string/button_fblogin"
+                facebook:confirm_logout="false"
+                facebook:fetch_user_info="true"
+                / -->      
+                
+            <Button
+                android:id="@+id/email_sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="@string/button_emaillogin"
+                android:textSize="14sp" />
+                            		
+            <Button
+                android:id="@+id/anonymous_sign_in_button"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+		        android:layout_marginBottom="25dip"
+		        android:textStyle="bold"
+		        android:textSize="14sp"
+                android:text="@string/button_anonymouslogin" />      		
+
+            <TextView
+                android:id="@+id/textview_privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+		        android:layout_marginBottom="15dip"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="@string/registerTermsAndConditions" />
+            
+        </LinearLayout>
+    </ScrollView>
+		
+	
+</RelativeLayout> 
+
+
+

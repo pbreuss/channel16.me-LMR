@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holdtotalk">Um eine Audio-Nachricht zu schicken, bitte den Aufnahme-Button gedrückt halten und loslassen zum Abschicken.</string>
+    <string name="sign_out_button_name">Abmelden</string>
+    <string name="revoke_access_button_name">Login widerrufen</string>
+    <string name="pebble_smartwatch">Pebble Smartwatch</string>
+    <string name="enable_pebble_notification">Pebble Nachrichten erlauben</string>  
+    <string name="enable_pebble_notification_explanation">Zur Info: Eintreffende Nachrichten werden nur zu Ihrem Pebble geschickt, wenn der Bildschirm nicht angeschalten ist.</string>      
+    <string name="pebble_onOffText">Deine Pebble smartwatch ist %1$s.</string>
+    <string name="pebble_notifications_turned_on">Pebble Nachrichten sind eingeschalten.</string>    
+    <string name="pebble_notifications_title">Channel16.me</string>    
+    <string name="pebble_notifications_title_from">Channel16.me von:</string>        
+    <string name="connected">verbunden</string>
+    <string name="notconnected">nicht verbunden</string>
+    <string name="yes">Ja</string>  
+    <string name="no">Nein</string>  
+    <string name="location_questions">Soll mein Standort für andere sichtbar sein? \n(Dies kann jederzeit in den Einstellungen geändert werden.)</string>    
+    <string name="sent_a_voice_message">Hat eine Audionachricht versendet.</string>    
+    <string name="status_signed_out">Abgemeldet</string>
+    <string name="signed_in_as">Angemeldet als %1$s</string>
+    <string name="channel16FacebookPage">Channel16.me \nauf Facebook</string>
+    <string name="channel16GooglePlusPage">Channel16.me \nauf Google+</string>
+    <string name="channel16TwitterPage">Channel16.me \nauf Twitter</string>
+    <string name="channel16Web">Channel16.me \nim Internet</string>
+    <string name="signOutDialog">Wollen Sie sich abmelden?</string>
+    
+    <string name="play_services_error">Google Play Services wird benötigt, ist aber nicht verfügbar. App schließen &#8230;</string>
+    <string name="close_button">Schließen</string>
+    
+    <string name="id_type_text">Sie sind mit Account %1$s angemeldet</string>    
+    
+    <string name="action_settings">Einstellungen</string>
+    <string name="gpssettings">GPS Einstellungen</string>
+    <string name="gpsnotanabled">GPS ist nicht eingeschalten. Wollen Sie zu den GPS Einstellungen Ihres Handys wechseln?</string>
+    <string name="fb_icon_description">Klicken Sie hier um die Channel16.me Facebookseite zu öffnen</string>
+    <string name="gplus_icon_description">Klicken Sie hier um Channel16.me auf Google+ zu öffnen</string>
+    <string name="twitter_icon_description">Klicken Sie hier um Channel16.me auf Twitter zu öffnen</string>
+    <string name="www_icon_description">Klicken Sie hier um die Channel16.me Webseite zu öffnen</string>
+    <string name="user_icon">Dies ist das Profilfoto dieses Anwenders</string>
+    
+    <string name="currentlocexplanation">Bitte hier klicken um die Karte Ihrer aktuellen Position ui bewegen</string>    
+    <string name="centerimageexplanation">Bitte den Button unten klicken um dich zur aktuellen Position zu beamen</string>
+
+    <string name="signin_title">Anmelden</string>
+    <string name="loginyesno">Willst du dich einloggen?</string>
+    <string name="pushtotalk">Aufnahme &#8230;</string>
+    <string name="release_to_stop">Loslassen um die Aufnahme zu stoppen</string>
+    <string name="writehere">Schreib hier</string>    
+   	<string name="send">Abschicken</string>   
+   	<string name="sentAudioMessage">Hat eine Audionachricht geschickt</string>   
+    <string name="isTyping">tippt gerade &#8230;</string>
+    <string name="isSpeaking">spricht gerade &#8230;</string>
+    		
+   	<string name="button_player_play">Audionachricht abspielen</string>    
+   		
+    <string name="cancelled">Abgebrochen</string>
+    <string name="permission_not_granted">Die Aktion konnte nicht ausgeführt werden, da die Erlaubnis nicht erteilt wurde.</string>
+    <string name="hello_user">Hallo %1$s!</string>
+			
+	<!-- footer --> 
+	<string name="conditions">Geschäftsbedingungen</string> 
+	<string name="questions">Fragen</string> 
+	<string name="developer">Entwickler</string> 
+
+	<string name="beam2location">Beam to this location?</string> <!-- for future use -->
+	<string name="notification_title">Nachricht von</string> 
+		
+	<!-- buttons --> 
+	<string name="button_anonymouslogin">Anonymer Login</string> 
+	<string name="button_emaillogin">Anmeldung mit Email</string> 
+		
+	
+	<string name="button_cancel">Abbrechen</string> 
+	<string name="button_fblogin">Mit Facebook einloggen</string> 
+	<string name="button_gpluslogin">Mit Google+ einloggen</string> 		
+	<string name="button_accounts">Konten</string> 
+	<string name="button_ok">OK</string> 
+	<string name="button_privacysettings">Einstellungen</string> 
+	<string name="button_peopleinyourarea">Leute in deiner Gegend</string> 
+	<string name="button_disconnect">Exit</string> 
+	<string name="dialog_startPrivateChannel">Einen private/working Channel mit %1$s eröffnen?</string> 
+
+	<!-- beamster --> 
+	<string name="welcome">Willkommen!</string> 
+	<string name="beamed">Du hast dich zum Standort %1$s gebeamed.</string> <!-- for future use -->
+	<string name="trueloc">Du hast dich am Standort %1$s eingeloggt.</string>
+	<string name="starttyping">Deine Nachrichten werden für 3:30min sichtbar sein und haben eine Reichweite von %1$s. Du kannst dies in deinen Einstellungen ändern.</string>
+	<string name="therearemore">Es gibt %1$s User in deinem Umkreis von %2$s.</string>
+	<string name="thereareno">Es gibt keine User in deinem Umkreis von %1$s.</string>
+	<string name="thereisone">Es gibt einen User in deinem Umkreis von %1$s. </string>
+	<string name="profilesaved">Dein Profil wurde gespeichert.</string>
+
+	<!-- privacy settings -->
+	<string name="options_rangetobeseen">Horizont/Sichtbarkeit:</string> 
+	<string name="options_rangein">Umreis in:</string> 
+	<string name="options_km">km</string> 
+	<string name="options_meters">Meter</string> 
+	<string name="options_miles">Meilen</string> 
+	<string name="options_feet">Fuß</string> 
+	<string name="options_showyourselfas">Anzeige als &#8230;</string> 
+	<string name="options_nicknameandanonymousimage">Spitzname und anonymes Icon</string> 
+	<string name="options_firstnameandyourfbimage">Vorname und Profilbild</string> 
+	<string name="options_fullnameandfbimage">Ganzer Name und Profilbild</string> 
+	<string name="options_yournickname">Spitzname:</string> 
+	<string name="options_yournickname_hint">Anonymous</string> 
+	<string name="options_hideonmap">Meinen Standort nicht auf der Karte anzeigen</string> 
+	<string name="options_off">Aus</string> 
+	<string name="options_on">An</string> 
+	<string name="options_showfbfriendsonly">Zeige nur meine Facebook oder Google+ Freunde</string> 
+	<string name="options_blockallanonymoususers">Anonyme User blockieren</string> 
+	<string name="options_blockallbeamedusers">Gebeamte User blockieren</string> <!-- for future use -->
+	<string name="options_locationblurring">Meinen Standort nicht exakt darstellen (%1$s):</string> 
+	<string name="options_yourstatus">Mein Status:</string> 
+	<string name="options_yourstatus_hint">Mein Status &#8230; was immer du willst</string> 
+	<string name="options_metricsystem">Einheit:</string> 
+	<string name="options_people">online</string> 	
+
+	
+  	<string name="error_buffer">Error bei der Audio-Aufnahme! Imput Sample Rate kann nicht ermittelt werden.</string>
+  	<string name="error_init">Audio Recorder konnte nicht initialisiert werden! Vielleicht ist die ausgewählte Input-Sample-Rate nicht verfügbar.</string>		
+  	<string name="new_private_channel">Neuer privater Kanal mit %1$s erstellt.</string>	
+  	<string name="user_initiated_private_channel">User %1$s hat einen privaten Kanal initiiert.</string>	
+  	<string name="distance_away">%1$s%2$s entfernt</string>	<!-- example: 23m away -->
+  	<string name="via_client">via %1$s</string>	<!-- example: via Android -->
+  	<string name="user_x_has_logged_out">User %1$s hat sich ausgeloggt.</string>
+  	<string name="user_x_moved_out_of_sight">User %1$s bewegte sich aus dem Sichtbarkeitsbereich.</string>	
+  	<string name="user_x_came_in_sight">User %1$s ist jetzt in deinem Umkreis.</string>	
+  	<string name="user_x_updated_status">User %1$s hat seinen Status aktualisiert.</string>	
+  	<string name="no_internet_connection">Keine Internetverbindung!</string>	
+  	<string name="function_not_implemented">Diese Funktion ist noch nicht implementiert</string>	  		
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">PassWort</string>
+    <string name="action_sign_in_register"><b>Anmelden</b> oder registrieren register</string>
+    <string name="action_forgot_password">Verlorenes Passwort wiederherstellen</string>
+    <string name="login_progress_signing_in">Anmelden&#8230;</string>
+    <string name="error_invalid_email">Diese Email ist ungültig</string>
+    <string name="error_invalid_password">Das Passwort ist zu kurz</string>
+    <string name="error_incorrect_password">Das Passwort ist falsch</string>
+    <string name="error_field_required">Dieses feld ist erforderlich</string>
+  
+    <string name="disconnecting">Abmelden&#8230;</string>
+    <string name="please_wait">Bitte warten&#8230;</string>
+    <string name="authenticating">Authentifizierung&#8230;</string>
+    <string name="connecting">Verbinden&#8230;</string>
+            
+    <string name="tab_title_list">Liste</string>
+    <string name="tab_title_map">Karte</string>
+    <string name="tab_title_cam">Kamera</string>
+        
+    <string name="privacy_policy">Datenschutzvereinbarung</string>
+    <string name="is_offline">Dieser User scheint offline zu sein.</string>
+    <string name="anonymous_not_working_channel">Anonyme User können keinen Privaten/Working Channel initiieren</string>	
+    <string name="close_working_channel">Privaten Kanal schließen?</string>
+    <string name="send_a_photo">Foto verschicken</string>
+    <string name="take_photo">Foto aufnehmen</string>
+    <string name="choose_from_gallery">Foto auswählen</string>
+    
+</resources>

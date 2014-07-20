@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/listViewBg">
+	
+    <LinearLayout
+        android:id="@+id/bottom_write_barMap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/message_bar" >
+
+        <EditText
+            android:id="@+id/textMap"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/message_field"
+            android:hint="@string/writehere"
+            android:imeOptions="actionDone"
+            android:padding="5sp"
+            android:textColor="@color/textFieldColor" />
+
+        <ImageButton
+            android:id="@+id/map_record_audio_button"
+            android:contentDescription="@string/pushtotalk"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_margin="5sp"
+            android:scaleType="centerInside"
+            android:background="@drawable/dialog_button"
+            android:padding="10sp"
+			android:src="@drawable/microphone"
+            android:textColor="@color/dialogButtonTextColor" />        
+        
+        <Button
+            android:id="@+id/map_send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="5sp"
+            android:background="@drawable/dialog_button"
+            android:paddingBottom="5sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="5sp"
+			android:visibility="gone"        
+            android:text="@string/send"
+            android:textColor="@color/dialogButtonTextColor" />
+        
+        <ImageButton
+            android:id="@+id/map_photo_button"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_margin="5sp"
+            android:scaleType="centerInside"
+            android:background="@drawable/dialog_button"
+            android:padding="10sp"
+            android:src="@drawable/camera"
+            android:textColor="@color/dialogButtonTextColor" />
+            
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listMap"
+        android:layout_height="130dp"
+        android:layout_width="wrap_content"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="70dp"
+        android:paddingBottom="20sp"
+        android:layout_above="@id/bottom_write_barMap"
+        android:layout_alignParentLeft="true" />
+    
+    
+
+    <!-- TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_write_barMap"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/main_empty_list" /-->
+
+</RelativeLayout>

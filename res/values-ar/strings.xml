@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="holdtotalk">لإرسال رسالة صوتية، الاستمرار على زر تسجيل وإطلاق سراحه للإرسال</string> <!-- English: To send an audio message, hold the recording button and release to send. -->
+ <string name="sign_out_button_name">تسجيل الخروج</string> <!-- English: Sign out -->
+    <string name="revoke_access_button_name">سحب</string> <!-- English: Revoke -->
+    <string name="pebble_smartwatch">"بيبل" الساعة الذكية</string> <!-- English: Pebble Smartwatch -->
+    <string name="enable_pebble_notification">تمكين "بيبل"التبليغات:</string> <!-- English: Enable Pebble Notifications -->
+    <string name="enable_pebble_notification_explanation">ملاحظة:  يتمإرساللتبليغات الرسائل الواردة فقط إذا كانت شاشة الهاتف الذكي الخاص بك مقفلة</string> <!-- English: Note: Incoming message notifications are sent only if the screen of your smartphone is off. -->
+    <string name="pebble_onOffText">%1$s: الساعة الذكية "بيبل" الخاصة بك هي</string> <!-- English: Your Pebble smartwatch is %1$s. -->
+    <string name="pebble_notifications_turned_on">تم تشغيلالتبليغات </string> <!-- English: Pebble Notification has been turned on. -->
+    <string name="pebble_notifications_title">Channel16.me</string> <!-- English: Channel16.me -->
+    <string name="pebble_notifications_title_from">Channel16.me من:</string> <!-- English: Channel16.me from: -->
+    <string name="connected">متصل</string> <!-- English: connected -->
+    <string name="notconnected">غير متصل</string> <!-- English: not connected -->
+    <string name="yes">نعم</string> <!-- English: Yes -->
+    <string name="no">لا</string> <!-- English: No -->
+    <string name="location_questions">جعل موقعي مرئي للآخرين/ يمكن أن تتغير في أي وقت في الإعدادات</string> <!-- English: Make my location visible to others? \n(Can be changed anytime in Settings.) -->
+    <string name="sent_a_voice_message">إرسال رسالة صوتية.</string> <!-- English: Sent a voice message. -->
+    <string name="status_signed_out">تسجيل الخروج</string> <!-- English: Signed out -->
+    <string name="signed_in_as">%1$s تسجيل الدخول بصفتك</string> <!-- English: Signed in as %1$s -->
+    <string name="channel16FacebookPage">Channel16.me \n غير الفيسبوك</string> <!-- English: Channel16.me \non Facebook -->
+    <string name="channel16GooglePlusPage">Channel16.me \n غير جوجل</string> <!-- English: Channel16.me \non Google+ -->
+    <string name="channel16TwitterPage">Channel16.me \n غير تويتر</string> <!-- English: Channel16.me \non Twitter -->
+    <string name="channel16Web">Channel16.me \n غير الإنترنت</string> <!-- English: Channel16.me \non the Internet -->
+    <string name="channel16InfoEmail">info@channel16.me</string> <!-- English: info@channel16.me -->
+    <string name="signOutDialog">هل أنت متأكد أنك تريد الخروج؟</string> <!-- English: Are you sure you want to sign out? -->
+    <string name="play_services_error">"خدماتGoogle play"مطلوبةولكن غير متوفرة.
+يتم الإغلاق</string> <!-- English: Google Play services is required but not available. Closing ... -->
+    <string name="close_button">غلق</string> <!-- English: Close -->    
+    <string name="id_type_text">%1$s قمت بتسجيل الدخول باستخدام حساب</string> <!-- English: You are signed in with account %1$s -->
+
+    <string name="action_settings">إعدادات</string> <!-- English: Settings -->
+    <string name="gpssettings">إعدادات GPS</string> <!-- English: GPS Settings -->
+    <string name="gpsnotanabled">GPS غير ممكن.
+هل ترغب في الذهاب إلى قائمة الإعدادات؟</string> <!-- English: GPS is not enabled. Do you want to go to settings menu? -->
+    <string name="fb_icon_description">انقر فوق هذا الزر لفتح صفحة الفيسبوك Channel16.me</string> <!-- English: Click this button to open the Channel16.me Facebook page -->
+    <string name="gplus_icon_description">انقر فوق هذا الزر لفتح صفحة Channel16.me جوجل</string> <!-- English: Click this button to open the Channel16.me Google+ page -->
+    <string name="twitter_icon_description">انقر فوق هذا الزر لفتح صفحة Channel16.me تويتر</string> <!-- English: Click this button to open the Channel16.me Twitter page -->
+    <string name="www_icon_description">انقر فوق هذا الزر لفتح صفحة ويب Channel16.me</string> <!-- English: Click this button to open the Channel16.me webpage -->
+    <string name="user_icon">الصورة الشخصية للمستخدم</string> <!-- English: This is the profile image of this user -->
+    <string name="currentlocexplanation">انقر على هذا الزر لتحريك الخريطة لموقعك الحالي</string> <!-- English: Click this button to move the map to your current location -->
+    <string name="centerimageexplanation">انقر فوق الزر أدناه لإدخال شعاع"بيمستر"  في موقف هذه العلامة</string> <!-- English: Click the button below to enter Beamster at the position of this marker -->
+    <string name="signin_title">تسجيل الدخول</string> <!-- English: Sign in -->
+    <string name="loginyesno">هل ترغب في تسجيل الدخول؟</string> <!-- English: Do you want to log in? -->
+    <string name="pushtotalk">تسجيل ;</string> <!-- English: Recording ... -->
+
+    <string name="release_to_stop">يحرر من الإمساك لوقفه</string> <!-- English: Release to stop -->
+    <string name="writehere">أكتب هنا</string> <!-- English: Write here -->
+    <string name="send">إرسال</string> <!-- English: Send -->
+    <string name="sentAudioMessage">إرسال رسالة صوتية</string> <!-- English: Sent an audio message -->
+    <string name="isTyping">بصدد الكتابة</string> <!-- English: is typing ... -->
+    <string name="isSpeaking">...يتحدث;</string> <!-- English: is speaking ... -->
+
+    <string name="button_player_play">لعب رسالة صوتية</string> <!-- English: Play audio message -->
+    <string name="cancelled">ألغي</string> <!-- English: Cancelled -->
+    <string name="permission_not_granted">غير قادر على أداء العمل المحدد لعدم منحك الإذن</string> <!-- English: Unable to perform selected action because permissions were not granted. -->
+    <string name="hello_user">!%1$sمرحبا</string> <!-- English: Hello %1$s! -->
+
+    <string name="main_empty_list"></string> <!-- English:  -->
+    <string name="conditions">الشروط</string> <!-- English: Conditions -->
+    <string name="questions">الأسئلة</string> <!-- English: Questions -->
+    <string name="developer">المطور</string> <!-- English: Developer -->
+    <string name="beam2location">إشارة لاسلكية لهذا الموقع؟</string> <!-- English: Beam to this location? -->
+    <string name="notification_title">رسالة من</string> <!-- English: Message from -->
+    <string name="button_anonymouslogin">دخول مجهول</string> <!-- English: Anonymous Login -->
+    <string name="button_emaillogin">قم بتسجيل الدخول باستخدام البريد الإلكتروني</string> <!-- English: Sign in with Email -->
+
+    <string name="button_cancel">إلغاء</string> <!-- English: Cancel -->
+    <string name="button_fblogin">تسجيل الدخول عن طريق فايسبوك</string> <!-- English: Sign in with Facebook -->
+    <string name="button_gpluslogin">تسجيل الدخول عن طريق غوغل</string> <!-- English: Sign in with Google+ -->
+    <string name="button_accounts">حسابات</string> <!-- English: Accounts -->
+    <string name="button_ok">موافق</string> <!-- English: OK -->
+    <string name="button_privacysettings">إعدادات</string> <!-- English: Settings -->
+    <string name="button_peopleinyourarea">مستخدمون في منطقتي</string> <!-- English: People in my area -->
+    <string name="button_disconnect">خروج</string> <!-- English: Exit -->
+    <string name="dialog_startPrivateChannel">%1$s بدأ عمل القناة الخاصة مع</string> <!-- English: Start a private/working channel with %1$s? -->
+    <string name="welcome">!أهلا وسهلا</string> <!-- English: Welcome! -->
+
+    <string name="beamed">%1$s وجهت رسالة لاسلكية ل</string> <!-- English: You have beamed yourself to %1$s. -->
+    <string name="trueloc">%1$s قمت بتسجيل الدخول في الموقع</string> <!-- English: You have logged in at location %1$s. -->
+    <string name="starttyping">%1$sسوف تكون رسائلك واضحة ل3:30 دقيقة ولها مجموعة من
+ يمكنك تغيير هذا في قائمة الإعدادات</string> <!-- English: Your messages will be visible for 3:30min and have a range of %1$s. You can change this in the Settings menu. -->
+    <string name="therearemore">%1$s  هناك مستخدمين%1$ داخل النطاق الخاص بك من 
+</string> <!-- English: There are %1$s users within your range of %2$s. -->
+    <string name="thereareno">%1$s لا توجد المستخدمين الآخرين ضمن النطاق الخاص بك من
+.</string> <!-- English: There are no other users within your range of %1$s. -->
+    <string name="thereisone">%1$s هناك مستخدم واحد داخل النطاق الخاص بك من
+.</string> <!-- English: There is one user within your range of %1$s.  -->
+    <string name="profilesaved">تم حفظ الملف الشخصي</string> <!-- English: Profile saved. -->
+    <string name="options_rangetobeseen">الأفق / الرؤية:</string> <!-- English: Horizon/Visibility: -->
+    <string name="options_rangein">تتراوح في:</string> <!-- English: Range in: -->
+    <string name="options_km">كم</string> <!-- English: km -->
+    <string name="options_meters">متر</string> <!-- English: Meters -->
+    <string name="options_miles">كيلومتر</string> <!-- English: Miles -->
+    <string name="options_feet">قدم</string> <!-- English: Feet -->
+    <string name="options_showyourselfas">إظهار نفسي ك</string> <!-- English: Show myself as ... -->
+    <string name="options_nicknameandanonymousimage">إسم المستخدم و صورة مجهولة</string> <!-- English: Nickname and anonymous image -->
+    <string name="options_firstnameandyourfbimage">الإسم الأول و الصورة الشخصية</string> <!-- English: First name and profile image -->
+    <string name="options_fullnameandfbimage">الاسم الكامل والصورة الشخصية</string> <!-- English: Full name and profile image -->
+    <string name="options_yournickname">اسم المستخدم:</string> <!-- English: Nickname: -->
+    <string name="options_yournickname_hint">مجهول</string> <!-- English: Anonymous -->
+    <string name="options_hideonmap">إخفاء موقعي على الخريطة</string> <!-- English: Hide my location on map -->
+    <string name="options_off">إيقاف</string> <!-- English: Off -->
+    <string name="options_on">فتح</string> <!-- English: On -->
+    <string name="options_showfbfriendsonly">إظهار أصدقاء الفايسبوك فقط</string> <!-- English: Show Facebook friends only -->
+    <string name="options_blockallanonymoususers">منع المستخدمين المجهولين</string> <!-- English: Block anonymous users -->
+    <string name="options_blockallbeamedusers">منع المستخدمين لاسلكيا</string> <!-- English: Block beamed users -->
+    <string name="options_locationblurring"> (%1$s) المحيط بالقرب </string> <!-- English: Ambient Proximity/Location Blurring (%1$s): -->
+    <string name="options_yourstatus">حالتي:</string> <!-- English: My Status: -->
+    <string name="options_yourstatus_hint">حالتي ..أي شيئ</string> <!-- English: My status ... whatever -->
+    <string name="options_metricsystem">الوحدات:</string> <!-- English: Units: -->
+    <string name="options_people">على الانترنت</string> <!-- English: online -->
+    <string name="error_buffer">خطأ من التسجيل الصوتي!.لا يمكن العثور على معدل عينة مدخل التشغيل</string> <!-- English: Error from audio recording! Cannot find a working input sample rate. -->
+    <string name="error_init">مسجل الصوت لا يعمل. ربما مصدر الإدخال المحدد غير متوفرة, أو تعذر العثور على معدل عينة مدخل التشغيل</string> <!-- English: Audio recorder not initialised! Maybe the selected input source is not available, or a working input sample rate could not be found. -->
+    <string name="new_private_channel">%1$s  تم إنشاء قناة خاصة جديدةمع </string> <!-- English: New private channel with %1$s created. -->
+    <string name="user_initiated_private_channel">فتح قناة خاصة للعمل معك         
+%1$s </string> <!-- English: %1$s initiated a private/working channel with you. -->
+    <string name="distance_away">%1$s%2$s بعيدا</string> <!-- English: %1$s%2$s away -->
+    <string name="via_client">%1$sعبر
+</string> <!-- English: via %1$s -->
+    <string name="user_x_has_logged_out">%1$s المستخدم تسجيل الخروج</string> <!-- English: User %1$s has logged out. -->
+    <string name="user_x_moved_out_of_sight">اانتقل المستخدم %1$s بعيدا عن الأنظار</string> <!-- English: User %1$s moved out of sight. -->
+    <string name="user_x_came_in_sight">مستخدم %1$s جاء في الأفق</string> <!-- English: User %1$s came in sight. -->
+    <string name="user_x_updated_status">احالة %1$s مستخدم محدثة</string> <!-- English: User %1$s updated status. -->
+
+    <string name="no_internet_connection">لايوجد إتصال بالإنترنات</string> <!-- English: No Internet connection! -->
+    <string name="function_not_implemented">لم يتم تنفيذ هذه الوظيفة حتى الآن</string> <!-- English: This function is not yet implemented -->
+    <string name="prompt_email">البريد الإلكتروني</string> <!-- English: Email -->
+    <string name="prompt_password">كلمة السر</string> <!-- English: Password -->
+    <string name="action_sign_in_register">تسجيل الدخول /إنشاء حساب جديد</string> <!-- English: <b>Sign in</b> or register -->
+    <string name="action_forgot_password">استعادة كلمة السر المفقودة</string> <!-- English: Recover lost password -->
+    <string name="login_progress_signing_in">...تسجيل الدخول</string> <!-- English: Signing in... -->
+
+    <string name="error_invalid_email">عنوان البريد الإلكتروني هذا غير صالح</string> <!-- English: This email address is invalid -->
+    <string name="error_invalid_password">هذه كلمة قصيرة جدا</string> <!-- English: This password is too short -->
+    <string name="error_incorrect_password">كلمة العبور خاطئة</string> <!-- English: This password is incorrect -->
+    <string name="error_field_required">هذا الحقل مطلوب</string> <!-- English: This field is required -->
+    <string name="disconnecting">...تسجيل الخروج</string> <!-- English: Disconnecting... -->
+    <string name="please_wait">...يرجى الانتظار ;</string> <!-- English: Please wait... -->
+    <string name="authenticating">...مصادقة;</string> <!-- English: Authenticating... -->
+    <string name="connecting">...يتم الربط</string> <!-- English: Connecting... -->
+    <string name="tab_title_list">مكر</string> <!-- English: List -->
+    <string name="tab_title_map">خريطة</string> <!-- English: Map -->
+    <string name="tab_title_cam">الكاميرا</string> <!-- English: Cam -->
+    <string name="privacy_policy">الخصوصية</string> <!-- English: Privacy Policy -->
+</resources>

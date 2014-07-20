@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<resources>
+	<string name="holdtotalk">Chcete-li poslat zvukové zprávy, držte tlačítko nahrávání a po uvolnění se zpráva odešle.</string>
+	<!-- English: To send an audio message, hold the recording button and release to send. -->
+	<string name="sign_out_button_name">Odhlásit se</string>
+	<!-- English: Sign out -->
+	<string name="revoke_access_button_name">Zrušit</string>
+	<!-- English: Revoke -->
+	<string name="pebble_smartwatch">Pebble SmartWatch</string>
+	<!-- English: Pebble Smartwatch -->
+	<string name="enable_pebble_notification">Povolit Pebble Oznámení </string>
+	<!-- English: Enable Pebble Notifications -->
+	<string name="enable_pebble_notification_explanation">Poznámka: Oznámení příchozích zpráv jsou zasílány pouze v případě, že obrazovka telefonu je vypnutá</string>
+	<!-- English: Note: Incoming message notifications are sent only if the screen of your smartphone is off. -->
+	<string name="pebble_onOffText">Vaše chytré hodinky Pebble jsou %1$s.</string>
+	<!-- English: Your Pebble smartwatch is %1$s -->
+	<string name="pebble_notifications_turned_on">Pebble oznámení bylo zapnuto.</string>
+	<!-- English: Pebble Notification has been turned on. -->
+	<string name="pebble_notifications_title">Channel16.me</string>
+	<!-- English: Channel16.me -->
+	<string name="pebble_notifications_title_from">Channel16.me od:</string>
+	<!-- English: Channel16.me from: -->
+	<string name="connected">Připojen</string>
+	<!-- English: connected -->
+	<string name="notconnected">Odpojen</string>
+	<!-- English: not connected -->
+	<string name="yes">Ano</string>
+	<!-- English: Yes -->
+	<string name="no">Ne</string>
+	<!-- English: No -->
+	<string name="location_questions">Chcete,aby vaše pozice byla viditelná ostatními? \n (lze kdykoliv změnit v nastavení.)</string>
+	<!-- English: Make my location visible to others? \n(Can be changed anytime in Settings.) -->
+	<string name="sent_a_voice_message">Poslal hlasovou zprávu.</string>
+	<!-- English: Sent a voice message. -->
+	<string name="status_signed_out">Odhlášeni</string>
+	<!-- English: Signed out -->
+	<string name="signed_in_as">Jste přihlášen(a) jako %1$s</string>
+	<!-- English: Signed in as %1$s -->
+	<string name="channel16FacebookPage">Channel16.me \non Facebook</string>
+	<!-- English: Channel16.me \non Facebook -->
+	<string name="channel16GooglePlusPage">Channel16.me \non Google+</string>
+	<!-- English: Channel16.me \non Google+ -->
+	<string name="channel16TwitterPage">Channel16.me \non Twitter</string>
+	<!-- English: Channel16.me \non Twitter -->
+	<string name="channel16Web">Channel16.me \non Internet</string>
+	<!-- English: Channel16.me \non the Internet -->
+	<string name="channel16InfoEmail">info@channel16.me</string>
+	<!-- English: info@channel16.me -->
+	<string name="signOutDialog">Jste si jisti, že se chcete odhlásit?</string>
+	<!-- English: Are you sure you want to sign out? -->
+	<string name="play_services_error">Potřebné Google Play služby nejsou k dispozici. Uzavírám &#8230;</string>
+	<!-- English: Google Play services is required but not available. Closing ... -->
+	<string name="close_button">Zavřít</string>
+	<!-- English: Close -->
+	<string name="id_type_text">Jste přihlášeni účtem %1$s</string>
+	<!-- English: You are signed in with account %1$s -->
+	<string name="action_settings">Nastavení</string>
+	<!-- English: Settings -->
+	<string name="gpssettings">Nastavení GPS</string>
+	<!-- English: GPS Settings -->
+	<string name="gpsnotanabled">GPS není zapnuta. Chcete jí aktivovat v menu nastavení?</string>
+	<!-- English: GPS is not enabled. Do you want to go to settings menu? -->
+	<string name="fb_icon_description">Klepnutím na toto tlačítko otevřete stránku Channel16.me na Facebook</string>
+	<!-- English: Click this button to open the Channel16.me Facebook page -->
+	<string name="gplus_icon_description">Klepnutím na toto tlačítko otevřete stránku Channel16.me na Google+</string>
+	<!-- English: Click this button to open the Channel16.me Google+ page -->
+	<string name="twitter_icon_description">Klepnutím na toto tlačítko otevřete Channel16.me na Twitteru</string>
+	<!-- English: Click this button to open the Channel16.me Twitter page -->
+	<string name="www_icon_description">Klepnutím na toto tlačítko otevřete webové stránky Channel16.me</string>
+	<!-- English: Click this button to open the Channel16.me webpage -->
+	<string name="user_icon">Toto je obrazék daného uživatele</string>
+	<!-- English: This is the profile image of this user -->
+	<string name="currentlocexplanation">Klepnutím na toto tlačítko přesunete mapu na vaši aktuální polohu</string>
+	<!-- English: Click this button to move the map to your current location -->
+	<string name="centerimageexplanation">Klikněte na tlačítko níže pro přesunutí do požadovné lokace</string>
+	<!-- English: Click the button below to enter Beamster at the position of this marker -->
+	<string name="signin_title">Přihlásit se</string>
+	<!-- English: Sign in -->
+	<string name="loginyesno">Chcete se přihlásit?</string>
+	<!-- English: Do you want to log in? -->
+	<string name="pushtotalk">Nahrávání &#8230;</string>
+	<!-- English: Recording ... -->
+	<string name="release_to_stop">Uvolněte k ukončení nahrávání</string>
+	<!-- English: Release to stop -->
+	<string name="writehere">Pište zde</string>
+	<!-- English: Write here -->
+	<string name="send">Odeslat</string>
+	<!-- English: Send -->
+	<string name="sentAudioMessage">Odeslat audio zprávu</string>
+	<!-- English: Sent an audio message -->
+	<string name="isTyping">píše &#8230;</string>
+	<!-- English: is typing ... -->
+	<string name="isSpeaking">mluví &#8230;</string>
+	<!-- English: is speaking ... -->
+	<string name="button_player_play">Přehrát zvukovou zprávu</string>
+	<!-- English: Play audio message -->
+	<string name="cancelled">Zrušeno</string>
+	<!-- English: Cancelled -->
+	<string name="permission_not_granted">Nelze provést vybranou akci kvůli nedostatku povolení.</string>
+	<!-- English: Unable to perform selected action because permissions were not granted. -->
+	<string name="hello_user">Dobrý den %1$s!</string>
+	<!-- English: Hello %1$s! -->
+	<string name="conditions">Podmínky</string>
+	<!-- English: Conditions -->
+	<string name="questions">Dotazy</string>
+	<!-- English: Questions -->
+	<string name="developer">Vývojáři</string>
+	<!-- English: Developer -->
+	<string name="beam2location">Přesunout na toto místo?</string>
+	<!-- English: Beam to this location? -->
+	<string name="notification_title">Zpráva z</string>
+	<!-- English: Message from -->
+	<string name="button_anonymouslogin">Anonymní přihlášení</string>
+	<!-- English: Anonymous Login -->
+	<string name="button_emaillogin">Přihlašte se e-mailem</string>
+	<!-- English: Sign in with Email -->
+	<string name="button_cancel">Zrušit</string>
+	<!-- English: Cancel -->
+	<string name="button_fblogin">Přihlaste se Facebook účtem</string>
+	<!-- English: Sign in with Facebook -->
+	<string name="button_gpluslogin">Přihlásit se Google+ účtem</string>
+	<!-- English: Sign in with Google+ -->
+	<string name="button_accounts">Účty</string>
+	<!-- English: Accounts -->
+	<string name="button_ok">OK</string>
+	<!-- English: OK -->
+	<string name="button_privacysettings">Nastavení</string>
+	<!-- English: Settings -->
+	<string name="button_peopleinyourarea">Lidé v mém okolí</string>
+	<!-- English: People in my area -->
+	<string name="button_disconnect">Ukončit</string>
+	<!-- English: Exit -->
+	<string name="dialog_startPrivateChannel">Zahájit soukromý / pracovní kanál s %1$s?</string>
+	<!-- English: Start a private/working channel with %1$s? -->
+	<string name="welcome">Vítejte!</string>
+	<!-- English: Welcome! -->
+	<string name="beamed">Přesunuli jste se do %1$s.</string>
+	<!-- English: You have beamed yourself to %1$s. -->
+	<string name="trueloc">Přihlásil jste se v  %1$s.</string>
+	<!-- English: You have logged in at location %1$s. -->
+	<string name="starttyping">Vaše zprávy budou viditelné po 3:30 minuty v okruhu  %1$s. Lze změnit v nabídce Nastavení.</string>
+	<!-- English: Your messages will be visible for 3:30min and have a range of %1$s. You can change this in the Settings menu. -->
+	<string name="therearemore">Existují %1$s uživatelé ve vašem okruhu %2$s.</string>
+	<!-- English: There are %1$s users within your range of %2$s. -->
+	<string name="thereareno">Nejsou žádní další uživatelé ve vašem okruhu %1$s.</string>
+	<!-- English: There are no other users within your range of %1$s. -->
+	<string name="thereisone">Je zde jeden uživatel ve vašem okruhu %1$s.</string>
+	<!-- English: There is one user within your range of %1$s.  -->
+	<string name="profilesaved">Profil uložen.</string>
+	<!-- English: Profile saved. -->
+	<string name="options_rangetobeseen">Horizont / Viditelnost:</string>
+	<!-- English: Range/Visibility: -->
+	<string name="options_rangein">Dosah v:</string>
+	<!-- English: Range in: -->
+	<string name="options_km">km</string>
+	<!-- English: km -->
+	<string name="options_meters">Metry</string>
+	<!-- English: Meters -->
+	<string name="options_miles">Míle</string>
+	<!-- English: Miles -->
+	<string name="options_feet">Stopy</string>
+	<!-- English: Feet -->
+	<string name="options_showyourselfas">Zobrazit sebe jako &#8230;</string>
+	<!-- English: Show myself as ... -->
+	<string name="options_nicknameandanonymousimage">Uživatelské jméno a anonymní obrázek</string>
+	<!-- English: Nickname and anonymous image -->
+	<string name="options_firstnameandyourfbimage">Jméno a fotka</string>
+	<!-- English: First name and profile image -->
+	<string name="options_fullnameandfbimage">Celé jméno a fotka</string>
+	<!-- English: Full name and profile image -->
+	<string name="options_yournickname">Přihlašovací jméno:</string>
+	<!-- English: Nickname: -->
+	<string name="options_yournickname_hint">Anonymní</string>
+	<!-- English: Anonymous -->
+	<string name="options_hideonmap">Skrýt mou polohu na mapě</string>
+	<!-- English: Hide my location on map -->
+	<string name="options_off">Vypnout</string>
+	<!-- English: Off -->
+	<string name="options_on">Zapnout</string>
+	<!-- English: On -->
+	<string name="options_showfbfriendsonly">Zobraz pouze přátele z Facebooku</string>
+	<!-- English: Show Facebook friends only -->
+	<string name="options_blockallanonymoususers">Blokování anonymních uživatelů</string>
+	<!-- English: Block anonymous users -->
+	<string name="options_blockallbeamedusers">Blokování přesunutých uživatelů</string>
+	<!-- English: Block beamed users -->
+	<string name="options_locationblurring">Rozmazání polohy(%1$s):</string>
+	<!-- English: Location Blurring (%1$s): -->
+	<string name="options_yourstatus">Můj status:</string>
+	<!-- English: My Status: -->
+	<string name="options_yourstatus_hint">Můj status &#8230; cokoliv</string>
+	<!-- English: My status ... whatever -->
+	<string name="options_metricsystem">Jednotky:</string>
+	<!-- English: Units: -->
+	<string name="options_people">on-line</string>
+	<!-- English: online -->
+	<string name="error_buffer">Chyba zvukového záznamu! Nelze najít vzorkovací frekvenci vstupu.</string>
+	<!-- English: Error from audio recording! Cannot find a working input sample rate. -->
+	<string name="error_init">Audio nahrávač nemohl být spuštěn! Možná, že zvolený vstupní zdroj není k dispozici, nebo vzorkovací frekvence vstupu nebyla nalezena.</string>
+	<!-- English: Audio recorder not initialised! Maybe the selected input source is not available, or a working input sample rate could not be found. -->
+	<string name="new_private_channel">Nový soukromý kanál s %1$s byl vytvořen.</string>
+	<!-- English: New private channel with %1$s created. -->
+	<string name="user_initiated_private_channel">Uživatel %1$s zahájil soukromý kanál.</string>
+	<!-- English: User %1$s initiated a private channel. -->
+	<string name="distance_away">%1$s%2$s daleko</string>
+	<!-- English: %1$s%2$s away -->
+	<string name="via_client">přes %1$s</string>
+	<!-- English: via %1$s -->
+	<string name="user_x_has_logged_out">Uživatel %1$s se odhlásil.</string>
+	<!-- English: User %1$s has logged out. -->
+	<string name="user_x_moved_out_of_sight">Uživatel %1$s zmizel z dohledu.</string>
+	<!-- English: User %1$s moved out of sight. -->
+	<string name="user_x_came_in_sight">Uživatel %1$s je na dohled.</string>
+	<!-- English: User %1$s came in sight. -->
+	<string name="user_x_updated_status">Uživatel %1$s aktualizoval stav.</string>
+	<!-- English: User %1$s updated status. -->
+	<string name="no_internet_connection">Chybí připojení k internetu!</string>
+	<!-- English: No Internet connection! -->
+	<string name="function_not_implemented">Tato funkce ještě není dostupná</string>
+	<!-- English: This function is not yet implemented -->
+	<string name="prompt_email">Email</string>
+	<!-- English: Email -->
+	<string name="prompt_password">Heslo</string>
+	<!-- English: Password -->
+	<string name="action_sign_in_register">
+		<b>Přihlaste se</b> nebo se zaregistrujte</string>
+	<!-- English: <b>Sign in</b> or register -->
+	<string name="action_forgot_password">Obnovit ztracené heslo</string>
+	<!-- English: Recover lost password -->
+	<string name="login_progress_signing_in">Přihlašovaní &#8230;</string>
+	<!-- English: Signing in... -->
+	<string name="error_invalid_email">Tato e-mailová adresa je neplatná</string>
+	<!-- English: This email address is invalid -->
+	<string name="error_invalid_password">Zadané heslo je příliš krátké</string>
+	<!-- English: This password is too short -->
+	<string name="error_incorrect_password">Toto heslo je nesprávné</string>
+	<!-- English: This password is incorrect -->
+	<string name="error_field_required">Toto pole je povinné</string>
+	<!-- English: This field is required -->
+	<string name="disconnecting">Odpojení &#8230;</string>
+	<!-- English: Disconnecting... -->
+	<string name="please_wait">Prosím vyčkejte &#8230;</string>
+	<!-- English: Please wait... -->
+	<string name="authenticating">Ověřování &#8230;</string>
+	<!-- English: Authenticating... -->
+	<string name="connecting">Připojování &#8230;</string>
+	<!-- English: Connecting... -->
+	<string name="tab_title_list">Seznam</string>
+	<!-- English: List -->
+	<string name="tab_title_map">Mapa</string>
+	<!-- English: Map -->
+	<string name="tab_title_cam">Kamera</string>
+	<!-- English: Cam -->
+	<string name="privacy_policy">Zásady ochrany osobních údajů</string>
+	<!-- English: Privacy Policy -->
+	<string name="help_translate">Pomozte přeložit tuto aplikaci!</string>
+	<!-- English: Help translate this app! -->
+	<string name="help_translate_text">Prosím, pomozte přeložit tuto aplikaci do vašeho jazyka: %1$s \n\nTrvá to asi 45min přeložit všechny texty této aplikace do jiného jazyka \n\nProsím, klikněte na odkaz vpravo a my vám zašleme originální texty a můžete začít s jejich překladem. \n\nDěkujeme mnohokrát, \nVáš Channel16.me tým</string>
+	<!-- English: Please help translate this app to your language: %1$s\n\nIt takes about 45min to translate all the texts of this app to another language.\n\nPlease click the link to the right and we send you the original texts and you can start translating them. \n\nMany thanks,\nYour Channel16.me team -->
+	<string name="channel16TranslationEmail">přeložit\n@channel16.me</string>
+	<!-- English: translate\n@channel16.me -->
+    <string name="is_offline">Tento uživatel Zdá se, že není přihlášen</string>
+    <string name="anonymous_not_working_channel">Anonymní uživatelé nemohou initate Private / pracovní kanál</string>	
+    <string name="close_working_channel">Zavřít toto soukromý kanál?</string>
+    <string name="send_a_photo">Poslat foto</string>
+    <string name="take_photo">Vyfoťte</string>
+    <string name="choose_from_gallery">Vyberte si z vašich fotografií</string>
+	
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="holdtotalk">Przytrzymaj przycisk nagrywania, a po zakończniu puść aby wysłać </string>
+    <string name="sign_out_button_name">Wyloguj się</string>
+    <string name="revoke_access_button_name">Wznowienie</string>
+    <string name="pebble_smartwatch">Pebble Smartwatch</string>
+    <string name="enable_pebble_notification"> Pebble Powiadomienia</string>  
+    <string name="enable_pebble_notification_explanation">Uwaga: Przychodzące powiadomienia są wysyłany tylko gdy ekran jest wyłączony </string>      
+    <string name="pebble_onOffText">Twój Pebble smartwatch jest %1$s.</string>
+    <string name="pebble_notifications_turned_on">Pebble Powiadomienia są włączone</string>    
+    <string name="pebble_notifications_title">Channel16.me</string>    
+    <string name="pebble_notifications_title_from">Channel16.me z:</string>        
+    <string name="connected">połączony</string>
+    <string name="notconnected">nie połączony</string>
+    <string name="yes">Tak</string>  
+    <string name="no">Nie</string>  
+    <string name="location_questions">Czy moja pozycja ma być widoczna dla innych? \n(w każdej chwili można wyłączyć w Ustawieniach)</string>    
+    <string name="sent_a_voice_message">Wyślij wiadomość głosową.</string>    
+    <string name="status_signed_out">Wylogowano</string>
+    <string name="signed_in_as">Zalogowoano jako %1$s</string>
+    <string name="channel16FacebookPage">Channel16.me \nna Facebook</string>
+    <string name="channel16GooglePlusPage">Channel16.me \nna Google+</string>
+    <string name="channel16TwitterPage">Channel16.me \nna Twitter</string>
+    <string name="channel16Web">Channel16.me \nw Internecie</string>
+    <string name="signOutDialog">Na pewno wylogować??</string>
+    
+    <string name="play_services_error">Google Play jest wymagany ale nie jest dostępny, Zamykam &#8230;</string>
+    <string name="close_button">Zamknij</string>
+    
+    <string name="id_type_text">Jesteś zalogowany na konto %1$s</string>    
+    
+    <string name="action_settings">Ustawienia</string>
+    <string name="gpssettings">Ustawienia GPS</string>
+    <string name="gpsnotanabled">GPS nie jest włączony. Czy wejść do ustawień?</string>
+    <string name="fb_icon_description">Kliknij aby otworzyć stronę Channel16.me na Facebook</string>
+    <string name="gplus_icon_description">Kliknij aby otworzyć stronę Channel16.me w Google+ </string>
+    <string name="twitter_icon_description">Kliknij aby otworzyć stronę Channel16.me na Twitterze</string>
+    <string name="www_icon_description">Kliknij aby otworzyć stronę Channel16.me WWW </string>
+    <string name="user_icon">To jest Twoje zdjecie profilowe</string>
+    
+    <string name="currentlocexplanation">Kliknij aby przejśc do swojej pozycji</string>    
+    <string name="centerimageexplanation">Kliknij aby wprowadzić pozycję do Beamster</string>
+
+    <string name="signin_title">Wyloguj</string>
+    <string name="loginyesno">Zalogować?</string>
+    <string name="pushtotalk">Nagrywania &#8230;</string>
+    <string name="release_to_stop">Puść aby zatrzymać</string>
+    <string name="writehere">Wpisz tu...</string>    
+   	<string name="send">Wyślij</string>   
+   	<string name="sentAudioMessage">Wyślij wiadomosć audio</string>   
+    <string name="isTyping">pisze &#8230;</string>
+    <string name="isSpeaking">nadaje &#8230;</string>
+    		
+   	<string name="button_player_play">Odtwó®z wiadomość audio</string>    
+   		
+    <string name="cancelled">Zatrzymano</string>
+    <string name="permission_not_granted">Nie możan wykonać żadanej akcji bo brakuje pozwolenia.</string>
+    <string name="hello_user">Witaj %1$s!</string>
+			
+	<!-- footer --> 
+	<string name="conditions">Warunki</string> 
+	<string name="questions">Pytania</string> 
+	<string name="developer">Twórca</string> 
+
+	<string name="beam2location">Beam to this location?</string> <!-- for future use -->
+	<string name="notification_title">Wiadomość od</string> 
+		
+	<!-- buttons --> 
+	<string name="button_anonymouslogin">Logowanie anonimowe</string> 
+	<string name="button_emaillogin">Zaloguj z użyciem e-mail</string> 
+		
+	
+	<string name="button_cancel">Przerwij</string> 
+	<string name="button_fblogin">Zaloguj z  Facebook</string> 
+	<string name="button_gpluslogin">Zaloguj z Google+</string> 		
+	<string name="button_accounts">Konta</string> 
+	<string name="button_ok">OK</string> 
+	<string name="button_privacysettings">Ustawienia</string> 
+	<string name="button_peopleinyourarea">W okolicy</string> 
+	<string name="button_disconnect">Wyjście</string> 
+	<string name="dialog_startPrivateChannel">Rozpocznij na kanale prywatnym z %1$s?</string> 
+
+	<!-- beamster --> 
+	<string name="welcome">Witam!</string> 
+	<string name="beamed">You have beamed yourself to %1$s.</string> 
+	<string name="trueloc">Zalogowałęś sie w pozycji %1$s.</string>
+	<string name="starttyping">Twoja wiadomość będzie widoczna przez 3:30min w zasiegu %1$s. Możesz to zmienić w ustawieniach.</string>
+	<string name="therearemore">Jest %1$s użytkownikó w zasięgu %2$s.</string>
+	<string name="thereareno">Nie ma innych w zasiegu %1$s.</string>
+	<string name="thereisone">JEst jeden użytkownik w zasięgu %1$s. </string>
+	<string name="profilesaved">Profil zachowano.</string>
+
+	<!-- privacy settings -->
+	<string name="options_rangetobeseen">Horyzont/Zasięg:</string> 
+	<string name="options_rangein">Zasię w:</string> 
+	<string name="options_km">km</string> 
+	<string name="options_meters">Metrów</string> 
+	<string name="options_miles">Mil Morskich</string> 
+	<string name="options_feet">Stóp</string> 
+	<string name="options_showyourselfas">Wyświetlaj jako &#8230;</string> 
+	<string name="options_nicknameandanonymousimage">Nick anonimowy</string> 
+	<string name="options_firstnameandyourfbimage">Imię i zdjęcie profilowe</string> 
+	<string name="options_fullnameandfbimage">imię nazwisko i zdjęcie </string> 
+	<string name="options_yournickname">Nick:</string> 
+	<string name="options_yournickname_hint">Anonimowy</string> 
+	<string name="options_hideonmap">Ukoryj pmoją pozycję na mapie</string> 
+	<string name="options_off">Wył</string> 
+	<string name="options_on">Wł</string> 
+	<string name="options_showfbfriendsonly">Pokazuj tylko znajomych z FB</string> 
+	<string name="options_blockallanonymoususers">Blokuj anonimowych</string> 
+	<string name="options_blockallbeamedusers">Blokuj zbeamowanych</string> 
+	<string name="options_locationblurring">Rozmywanie pozycji (%1$s):</string> 
+	<string name="options_yourstatus">Mój status:</string> 
+	<string name="options_yourstatus_hint">Mój status &#8230; cokolwiek</string> 
+	<string name="options_metricsystem">Jednostki:</string> 
+	<string name="options_people">online</string> 	
+
+	
+  	<string name="error_buffer">Błąd w nagrywaniu. Nieprawidłowe wejście.</string>
+  	<string name="error_init">Błąd w nagrywaniu. Nieprawidłowe wejście.</string>		
+  	<string name="new_private_channel">Nowy prywatny kanał %1$s utworzono.</string>	
+  	<string name="user_initiated_private_channel">Użytkownik %1$s zainicjował nowy kanał.</string>	
+  	<string name="distance_away">%1$s%2$s od nas</string>	<!-- example: 23m away -->
+  	<string name="via_client">poprzez %1$s</string>	<!-- example: via Android -->
+  	<string name="user_x_has_logged_out">Użytkownik %1$s wylogował się.</string>
+  	<string name="user_x_moved_out_of_sight">Użytkownik %1$s poza zasięgiem.</string>	
+  	<string name="user_x_came_in_sight">Użytkownik %1$s w zasiegu.</string>	
+  	<string name="user_x_updated_status">Uzytkownik %1$s ma nowy status.</string>	
+  	<string name="no_internet_connection">Brak połacznia z Internetem!</string>	
+  	<string name="function_not_implemented">Pracujemy nad tą funkcją&#8230;</string>	
+  		
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">HAsło</string>
+    <string name="action_sign_in_register"><b>Zaloguj</b> lub zarejstruj się</string>
+    <string name="action_forgot_password">Odzyskiwanie hasła</string>
+    <string name="login_progress_signing_in">Logowanie jako&#8230;</string>
+    <string name="error_invalid_email">Niepoprawny adres</string>
+    <string name="error_invalid_password">Hasło jest za krótkie</string>
+    <string name="error_incorrect_password">Hasło jest niepoprawne</string>
+    <string name="error_field_required">To pole jest wymagane</string>
+  	
+    <string name="disconnecting">Odłączanie&#8230;</string>
+    <string name="please_wait">Proszę czekać&#8230;</string>
+    <string name="authenticating">Uwierzytelniania&#8230;</string>
+    <string name="connecting">Podłączanie&#8230;</string>
+    
+    <string name="tab_title_list">Lista</string>
+    <string name="tab_title_map">Mapa</string>
+    <string name="tab_title_cam">Kamera</string>  	
+  	
+    <string name="privacy_policy">Polityka prywatności</string>
+    
+    <string name="is_offline">Ten użytkownik wydaje się nie zalogowany.</string>
+    <string name="anonymous_not_working_channel">Anonimowi użytkownicy nie mogą initate prywatny / kanał roboczy</string>
+    <string name="close_working_channel">Zamknij to prywatny kanał?</string>
+    <string name="send_a_photo">Wyślij zdjęcie</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="choose_from_gallery">Wybierz z Twoich zdjęć</string>    
+        
+</resources>

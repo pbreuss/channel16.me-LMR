@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:layout_weight="1"
+        android:text="@string/release_to_stop"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+  <com.beamster.audio.Scope
+      android:id="@+id/scope"
+      android:layout_width="match_parent"
+      android:layout_height="89dp"
+      android:layout_marginBottom="9dp"
+      android:layout_marginLeft="9dp"
+      android:layout_marginRight="9dp"
+      android:layout_weight="1" />
+    
+</LinearLayout>

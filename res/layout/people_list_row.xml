@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dialogBackgroundLightColor"
+    android:paddingBottom="10dp" >
+
+    <TextView
+        android:id="@+id/peopleRowName"
+        android:layout_width="fill_parent"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/peopleRowPicture"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textColor="@color/dialogTextColor"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/peopleRowStatus"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/peopleRowName"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/peopleRowInfo"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textColor="@color/dialogTextColor"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/peopleRowInfo"
+        android:layout_width="100dp"
+        android:layout_height="16dp"
+        android:layout_below="@+id/peopleRowName"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/peopleRowPicture"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textColor="@color/dialogTextColor"
+        android:textSize="13dp" />
+
+    <com.beamster.util.RoundedImageView
+        android:id="@+id/peopleRowPicture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/user_icon"
+        android:gravity="bottom"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

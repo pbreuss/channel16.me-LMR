@@ -1,0 +1,391 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dialogBackgroundLightColor" >
+
+    <LinearLayout
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:overScrollMode="ifContentScrolls"
+        android:paddingBottom="21dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="21dp"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/options_yournickname"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dialogTextColor" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/nickname_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/options_yournickname_hint"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="21dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/options_yourstatus"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dialogTextColor" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/options_yourstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/options_yourstatus_hint"
+                android:inputType="text" />
+        </LinearLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="21dp" >
+
+            <TextView
+                android:id="@+id/textViewProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/options_rangetobeseen"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dialogTextColor" />
+
+            <TextView
+                android:id="@+id/textViewProgressValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="{value}"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="?android:attr/editTextColor" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="21dp"
+            android:paddingTop="13dp" >
+
+            <SeekBar
+                android:id="@+id/rangeToBeseenSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="20000" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/options_milesMeterSwitch_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:textColor="@color/dialogTextColor" />
+
+                <RadioButton
+                    android:id="@+id/options_milesMeterSwitch_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:textColor="@color/dialogTextColor" />
+            </RadioGroup>
+                    
+        </LinearLayout>
+            
+        <View
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:background="@android:color/darker_gray" />                 
+        
+        <LinearLayout
+            android:id="@+id/settingsAdvancedList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/showyourselfas_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="13dp"
+                android:text="@string/options_showyourselfas"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dialogTextColor" />
+
+            <Spinner
+                android:id="@+id/showyourselfas_spinner"
+                android:paddingBottom="13dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />          
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="21dp"
+                android:paddingTop="21dp" >
+
+                <TextView
+                    android:id="@+id/options_hideonmap_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:text="@string/options_hideonmap"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dialogTextColor" />
+
+                <Switch
+                    android:id="@+id/options_hideonmap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:textOff="@string/options_off"
+                    android:textOn="@string/options_on" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="21dp"
+                android:paddingTop="21dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/options_showfbfriendsonly_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:text="@string/options_showfbfriendsonly"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dialogTextColor" />
+
+                <Switch
+                    android:id="@+id/options_showfbfriendsonly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:textOff="@string/options_off"
+                    android:textOn="@string/options_on" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="21dp"
+                android:paddingTop="21dp" >
+
+                <TextView
+                    android:id="@+id/options_blockallanonymoususers_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:text="@string/options_blockallanonymoususers"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dialogTextColor" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Switch
+                    android:id="@+id/options_blockallanonymoususers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:textOff="@string/options_off"
+                    android:textOn="@string/options_on" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="21dp"
+                android:paddingTop="21dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/options_blockallbeamedusers_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:text="@string/options_blockallbeamedusers"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dialogTextColor" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Switch
+                    android:id="@+id/options_blockallbeamedusers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textOff="@string/options_off"
+                    android:textOn="@string/options_on" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/optionsText_locationblurring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="21dp"
+                android:text="@string/options_locationblurring"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dialogTextColor" />
+
+            <SeekBar
+                android:id="@+id/options_locationblurring"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="21dp"
+                android:max="1000" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="21dp"
+            android:paddingTop="21dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/options_metricsystem"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dialogTextColor" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/unit_of_length_km"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/options_km"
+                    android:textColor="@color/dialogTextColor" />
+
+                <RadioButton
+                    android:id="@+id/unit_of_length_miles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/options_miles"
+                    android:textColor="@color/dialogTextColor" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingTop="13dp" >
+
+            <Button
+                android:id="@+id/options_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/dialog_button"
+                android:paddingBottom="5sp"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                android:paddingTop="5sp"
+                android:text="@string/button_ok"
+                android:textColor="@color/dialogButtonTextColor" />
+
+            <Button
+                android:id="@+id/options_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/dialog_button"
+                android:paddingBottom="5sp"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                android:paddingTop="5sp"
+                android:text="@string/button_cancel"
+                android:textColor="@color/dialogButtonTextColor" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
